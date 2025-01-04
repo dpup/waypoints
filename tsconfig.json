@@ -9,8 +9,8 @@
       "@layouts/*": ["src/layouts/*"],
       "@img/*": ["src/assets/img/*"],
       "@icons/*": ["src/assets/icons/*"],
-      "@styles/*": ["src/assets/styles/*"],
-    },
+      "@styles/*": ["src/assets/styles/*"]
+    }
   },
-  "exclude": ["dist"],
+  "exclude": ["dist"]
 }

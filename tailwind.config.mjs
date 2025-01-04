@@ -1,50 +1,49 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-  darkMode: "class",
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        pixel: ["Silkscreen"],
-        serif: ["Arvo", "serif"],
-        sans: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        pixel: ['Silkscreen'],
+        sans: ['-apple-system', 'system-ui', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', 'Ubuntu'],
       },
       fontSize: {
-        xs: ["0.75rem", { lineHeight: "1rem" }],
-        sm: ["0.875rem", { lineHeight: "1.25rem" }],
-        base: ["1rem", { lineHeight: "1.5rem" }],
-        lg: ["1.125rem", { lineHeight: "1.75rem" }],
-        xl: ["1.25rem", { lineHeight: "1.75rem" }],
-        "2xl": ["1.5rem", { lineHeight: "2rem" }],
-        "3xl": ["1.875rem", { lineHeight: "2.25rem" }],
-        "4xl": ["2.25rem", { lineHeight: "2.5rem" }],
+        xs: ['11px', { lineHeight: '11px' }],
+        sm: ['13px', { lineHeight: '13px' }],
+        base: ['15px', { lineHeight: '20px' }],
+        lg: ['20px', { lineHeight: '28px' }],
+        xl: ['24px', { lineHeight: '32px' }],
+        '2xl': ['32px', { lineHeight: '40px' }],
+        '3xl': ['40px', { lineHeight: '40px' }],
+        '4xl': ['50px', { lineHeight: '75px' }],
       },
       // Styles for 'prose' classes.
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
             a: {
-              textDecoration: "none",
-              fontWeight: "400",
+              textDecoration: 'none',
+              fontWeight: '400',
             },
             p: {
-              marginLeft: "3px",
-              textAlign: "justify",
-              fontWeight: "300",
+              marginLeft: '3px',
+              textAlign: 'justify',
+              fontWeight: '300',
             },
             h2: {
-              marginLeft: "3px",
-              fontWeight: "600",
+              marginLeft: '3px',
+              fontWeight: '600',
             },
             h3: {
-              marginLeft: "3px",
-              fontWeight: "600",
+              marginLeft: '3px',
+              fontWeight: '600',
             },
             li: {
-              fontWeight: "300",
+              fontWeight: '300',
             },
             hr: {
-              borderColor: "var(--tw-prose-bullets)",
+              borderColor: 'var(--tw-prose-bullets)',
             },
           },
         },
@@ -52,5 +51,5 @@ export default {
       colors: {},
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };
