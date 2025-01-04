@@ -1,0 +1,37 @@
+---
+import '@styles/base.css';
+import PostHog from '@components/PostHog.astro';
+
+const { frontmatter } = Astro.props;
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={frontmatter.description} />
+    <meta name="viewport" content="width=device-width" />
+    <title>
+      {
+        frontmatter.title
+          ? frontmatter.title + ' | Waypoints'
+          : 'Waypoints | Career Development for Software Engineers'
+      }
+    </title>
+
+    <link
+      rel="canonical"
+      href={frontmatter.canonical || `https://waypnts.com${Astro.url.pathname.replace(/\/$/, '')}`}
+    />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <PostHog />
+  </head>
+  <body class="bg-stone-100 text-stone-600">
+    <h1 class="font-pixel">Waypoints</h1>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "name": "waypnts.com",
+  "private": true,
+  "description": "Site for the Waypoints Career Development Framework",
+  "homepage": "https://waypnts.com",
+  "bugs": {
+    "url": "https://github.com/dpup/waypnts.com/issues"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro",
+    "format": "prettier --write .",
+    "fmt": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.1",
+    "@astrojs/mdx": "^2.0.2",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "astro": "^4.0.6",
+    "astro-icon": "^1.1.5",
+    "lucide": "^0.453.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.2.48",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}

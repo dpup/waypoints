@@ -1,0 +1,17 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@tailwind",
+      "description": "Use the @tailwind directive to insert Tailwind's `base`, `components`, `utilities`, and `screens` styles into your CSS."
+    },
+    {
+      "name": "@apply",
+      "description": "Use the @apply to compose tailwind classes."
+    },
+    {
+      "name": "@layer",
+      "description": "Use the @layer to tell tailwind which bucket a class belongs to."
+    }
+  ]
+}
