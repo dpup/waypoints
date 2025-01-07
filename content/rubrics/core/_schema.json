@@ -1,0 +1,197 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "responsibilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expectations": {
+      "type": "object",
+      "properties": {
+        "technical_expertise": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        },
+        "project_ownership": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        },
+        "business_impact": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        },
+        "collaboration_communication": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        },
+        "mentorship_support": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        },
+        "leadership": {
+          "type": "object",
+          "properties": {
+            "exceeds": {
+              "type": "string"
+            },
+            "meets": {
+              "type": "string"
+            },
+            "needs_improvement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exceeds",
+            "meets",
+            "needs_improvement"
+          ]
+        }
+      },
+      "required": [
+        "technical_expertise",
+        "project_ownership",
+        "business_impact",
+        "collaboration_communication",
+        "mentorship_support",
+        "leadership"
+      ]
+    },
+    "traits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "management": {
+      "type": "object",
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "tips": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "focus_areas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "measuring_progress": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "common_pitfalls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "goal",
+        "tips",
+        "focus_areas",
+        "measuring_progress",
+        "common_pitfalls"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "responsibilities",
+    "expectations",
+    "traits",
+    "management"
+  ]
+}
