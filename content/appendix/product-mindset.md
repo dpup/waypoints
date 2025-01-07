@@ -1,5 +1,6 @@
 ---
 
+order: 1
 ---
 
 # The Product Mindset
