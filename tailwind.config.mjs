@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         pixel: ['Silkscreen'],
-        sans: ['-apple-system', 'system-ui', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', 'Ubuntu'],
+        sans: ['-apple-system', 'system-ui', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Ubuntu'],
       },
       fontSize: {
         xs: ['11px', { lineHeight: '11px' }],

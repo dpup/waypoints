@@ -1,5 +1,5 @@
 ---
-
+title: The Product Mindset
 order: 1
 ---
 

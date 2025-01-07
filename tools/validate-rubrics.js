@@ -1,37 +1,48 @@
-import { readFileSync, readdir } from 'fs';
-import { parse } from 'yaml';
-import Ajv from 'ajv';
-import { resolve, join, extname, dirname } from 'path';
+import fs from 'fs';
+import yaml from 'yaml';
+import { join, dirname, basename, extname } from 'path';
 import { fileURLToPath } from 'url';
-const ajv = new Ajv();
+import { fromError, isZodErrorLike } from 'zod-validation-error';
 
-const rubricsDir = resolve(dirname(fileURLToPath(import.meta.url)), '../content/rubrics/core');
-const schema = JSON.parse(readFileSync(join(rubricsDir, '_schema.json'), 'utf8'));
-const validate = ajv.compile(schema);
+import coreSchema from '../content/rubrics/core/_schema.js';
 
-const hasErrors = false;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-readdir(rubricsDir, (err, files) => {
-  if (err) {
-    console.error('Error reading directory:', err);
-    return;
+const directoryPath = join(__dirname, '../content/rubrics/core');
+const yamlFiles = getYamlFiles(directoryPath);
+
+let hasError = false;
+
+yamlFiles.forEach((file) => {
+  const filePath = join(directoryPath, file);
+  if (!validateYamlFile(filePath)) {
+    hasError = true;
   }
-
-  files.forEach(file => {
-    if (extname(file) === '.yaml' && file !== '_schema.yaml') {
-      const filePath = join(rubricsDir, file);
-      const fileContent = readFileSync(filePath, 'utf8');
-      const data = parse(fileContent);
-
-      const valid = validate(data);
-
-      if (!valid) {
-        console.error(`❌ ${file} validation errors:`, validate.errors);
-        hasErrors = true;
-      }
-    }
-  });
 });
 
-if (hasErrors) process.exit(1);
-else console.log('✅ Rubrics are valid');
+if (hasError) {
+  process.exit(1);
+} else {
+  console.log('✅ All rubrics are valid');
+}
+
+function validateYamlFile(filePath) {
+  try {
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const data = yaml.parse(fileContents);
+    coreSchema.parse(data);
+    return true;
+  } catch (err) {
+    if (isZodErrorLike(err)) {
+      console.error(`❌ ${basename(filePath)}:`, fromError(err).toString());
+    } else {
+      console.error(`❌ ${basename(filePath)}:`, err.toString());
+    }
+    return false;
+  }
+}
+
+function getYamlFiles(dir) {
+  return fs.readdirSync(dir).filter((file) => extname(file) === '.yaml');
+}

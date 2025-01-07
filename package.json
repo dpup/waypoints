@@ -19,31 +19,26 @@
     "fmt": "prettier --write ."
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.1",
-    "@astrojs/mdx": "^2.0.2",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/mdx": "^4.0.4",
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.0.3",
-    "@headlessui/react": "^1.7.18",
-    "@heroicons/react": "^2.1.1",
-    "@tailwindcss/forms": "^0.5.7",
-    "astro": "^4.0.6",
+    "@astrojs/tailwind": "^5.1.4",
+    "@tailwindcss/forms": "^0.5.10",
+    "astro": "^5.1.4",
     "astro-icon": "^1.1.5",
-    "lucide": "^0.453.0",
+    "lucide": "^0.469.0",
     "nanostores": "^0.11.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sharp": "^0.32.6",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.7.2"
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.1",
+    "zod-validation-error": "^3.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "@types/node": "^20.10.7",
-    "@types/react": "^18.2.48",
-    "ajv": "^8.17.1",
-    "js-yaml": "^4.1.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.4",
     "prettier": "^3.4.2",
-    "prettier-plugin-astro": "^0.14.1",
-    "yaml": "^2.7.0"
+    "prettier-plugin-astro": "^0.14.1"
   }
 }

@@ -9,56 +9,56 @@ description: |
   junior team members.
 
 responsibilities:
-- Owns small to medium-sized projects or features
-- Proactively considers user needs and business impact in technical decisions
-- Architects scalable and maintainable solutions for complex problems
-- Mentors junior engineers and contributes to their growth
-- Actively participates in product discussions, offering technical insights
-- Drives improvements in development processes and tooling
-- Demonstrates strong debugging and problem-solving skills
+  - Owns small to medium-sized projects or features
+  - Proactively considers user needs and business impact in technical decisions
+  - Architects scalable and maintainable solutions for complex problems
+  - Mentors junior engineers and contributes to their growth
+  - Actively participates in product discussions, offering technical insights
+  - Drives improvements in development processes and tooling
+  - Demonstrates strong debugging and problem-solving skills
 
 expectations:
-  technical_expertise:
+  technical:
     exceeds: Architects scalable and maintainable solutions for complex problems, proactively addressing potential issues. Balances technical debt and feature delivery with minimal supervision.
     meets: Designs scalable, maintainable, and well-architected solutions for complex problems. Delivers well-documented, high-quality code with minimal supervision.
-    needs_improvement: Struggles with architecting scalable solutions and balancing technical debt with feature delivery. Often requires significant oversight from more senior engineers.
+    misses: Struggles with architecting scalable solutions and balancing technical debt with feature delivery. Often requires significant oversight from more senior engineers.
 
-  project_ownership:
+  ownership:
     exceeds: Owns and delivers small to medium-sized projects or features, balancing technical debt with feature delivery. Communicates progress and risks to stakeholders consistently.
     meets: Manages and delivers small to medium-sized projects independently, coordinating with cross-functional teams and ensuring that project goals align with business needs. Proactively resolves issues as they arise.
-    needs_improvement: Struggles to manage small to medium-sized projects independently, requires significant oversight, and often fails to balance priorities effectively.
+    misses: Struggles to manage small to medium-sized projects independently, requires significant oversight, and often fails to balance priorities effectively.
 
-  business_impact:
+  impact:
     exceeds: Balances technical decisions with user needs and business impact, frequently suggesting optimizations that improve product or operational efficiency.
     meets: Proactively considers user needs and business impact when making technical decisions; contributes to product discussions with thoughtful business-related insights.
-    needs_improvement: Rarely considers the business impact of their technical decisions; focuses mostly on short-term feature delivery without considering long-term product outcomes.
+    misses: Rarely considers the business impact of their technical decisions; focuses mostly on short-term feature delivery without considering long-term product outcomes.
 
-  collaboration_communication:
+  collaboration:
     exceeds: Collaborates well with team members; communicates technical details effectively; creates accurate tech specs or RFCs to support their work.
     meets: Works effectively across teams, fostering strong working relationships; communicates complex technical ideas clearly and concisely; produces clear and comprehensive documentation.
-    needs_improvement: Struggles with effective communication or collaboration; tech specs or RFcs are often incomplete or unclear, leading to misunderstandings or knowledge gaps.
+    misses: Struggles with effective communication or collaboration; tech specs or RFcs are often incomplete or unclear, leading to misunderstandings or knowledge gaps.
 
-  mentorship_support:
+  support:
     exceeds: Mentors junior engineers on technical basics and team practices. Provides feedback in code reviews and actively participates in interviews or hiring discussions.
     meets: Provides regular mentorship to junior engineers and peers, helping them grow. Actively participates in interviewing and hiring processes, offering valuable input.
-    needs_improvement: Limited engagement in mentorship. Struggles to provide effective guidance or feedback. Rarely participates in the interview process or offers little value when involved.
+    misses: Limited engagement in mentorship. Struggles to provide effective guidance or feedback. Rarely participates in the interview process or offers little value when involved.
 
   leadership:
     exceeds: Takes ownership of improving team processes and suggests small changes that improve productivity. Manages their own work effectively and contributes to team discussions.
     meets: Suggests and leads small team process improvements. Takes initiative in team discussions around workflow, tooling, and practices. Demonstrates self-leadership and supports team effectiveness.
-    needs_improvement: Struggles to manage their own work independently or suggest improvements to team processes. Fails to contribute meaningfully to team discussions about workflows or tooling.
+    misses: Struggles to manage their own work independently or suggest improvements to team processes. Fails to contribute meaningfully to team discussions about workflows or tooling.
 
 traits:
-- Deliver small to medium-sized projects independently, making sure they’re scalable and well-maintained.
-- Provide thoughtful, constructive feedback during code reviews and helps guide junior engineers.
-- Write comprehensive documentation that covers technical decisions, trade-offs, and implementation details.
-- Actively participate in product discussions, offering technical insights that help shape the direction of features.
-- Take on mentorship roles, helping junior engineers learn best practices and navigate complex problems.
-- Balance technical debt and feature delivery, ensuring both short-term wins and long-term stability.
-- Are a go-to person for specific areas of the codebase, helping the team understand and navigate those parts.
-- Actively contribute to improving team processes and tooling, suggesting ways to enhance efficiency.
-- Demonstrate strong debugging skills, resolving issues quickly and helping others troubleshoot as needed.
-- Consistently deliver high-quality work on time and clearly communicates progress and challenges to stakeholders.
+  - Deliver small to medium-sized projects independently, making sure they’re scalable and well-maintained.
+  - Provide thoughtful, constructive feedback during code reviews and helps guide junior engineers.
+  - Write comprehensive documentation that covers technical decisions, trade-offs, and implementation details.
+  - Actively participate in product discussions, offering technical insights that help shape the direction of features.
+  - Take on mentorship roles, helping junior engineers learn best practices and navigate complex problems.
+  - Balance technical debt and feature delivery, ensuring both short-term wins and long-term stability.
+  - Are a go-to person for specific areas of the codebase, helping the team understand and navigate those parts.
+  - Actively contribute to improving team processes and tooling, suggesting ways to enhance efficiency.
+  - Demonstrate strong debugging skills, resolving issues quickly and helping others troubleshoot as needed.
+  - Consistently deliver high-quality work on time and clearly communicates progress and challenges to stakeholders.
 
 management:
   goal: |
@@ -67,29 +67,29 @@ management:
     drive larger initiatives and to juggle multiple concurrent workstreams.
 
   tips:
-  - Grant significant autonomy in technical decision-making while remaining available as a sounding board
-  - Create opportunities for them to influence product strategy and technical architecture
-  - Encourage them to develop and document technical standards and best practices
-  - Help them balance individual contribution with mentoring responsibilities
-  - Support them in building relationships across the organization
+    - Grant significant autonomy in technical decision-making while remaining available as a sounding board
+    - Create opportunities for them to influence product strategy and technical architecture
+    - Encourage them to develop and document technical standards and best practices
+    - Help them balance individual contribution with mentoring responsibilities
+    - Support them in building relationships across the organization
 
-  focus_areas:
-  - Technical influence
-  - Project planning and risk management
-  - System design and architecture decisions
-  - Cross-functional communication and collaboration
-  - Strategic thinking and business alignment
-  - Technical debt management and trade-off decisions
+  areas:
+    - Technical influence
+    - Project planning and risk management
+    - System design and architecture decisions
+    - Cross-functional communication and collaboration
+    - Strategic thinking and business alignment
+    - Technical debt management and trade-off decisions
 
-  measuring_progress:
-  - Evaluate the success of projects they lead, not just their individual contributions
-  - Assess the quality and impact of their technical decisions
-  - Track their influence on team practices and standards
-  - Observe their effectiveness in product and architectural discussions
+  measurement:
+    - Evaluate the success of projects they lead, not just their individual contributions
+    - Assess the quality and impact of their technical decisions
+    - Track their influence on team practices and standards
+    - Observe their effectiveness in product and architectural discussions
 
-  common_pitfalls:
-  - Treating them solely as senior individual contributors
-  - Not providing enough exposure to strategic decisions
-  - Failing to develop their leadership and influence skills
-  - Overwhelming them with too many mentoring responsibilities
-  - Not challenging them with complex enough technical problems
+  pitfalls:
+    - Treating them solely as senior individual contributors
+    - Not providing enough exposure to strategic decisions
+    - Failing to develop their leadership and influence skills
+    - Overwhelming them with too many mentoring responsibilities
+    - Not challenging them with complex enough technical problems

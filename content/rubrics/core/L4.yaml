@@ -9,56 +9,56 @@ description: |
   team, looking for ways to improve engineering practices across the organization.
 
 responsibilities:
-- Leads small project teams and provides technical direction
-- Balances technical debt with product delivery needs
-- Influences product roadmap with technical insights and feasibility analysis
-- Implements and advocates for best practices in code quality and architecture
-- Drives adoption of new technologies that improve product delivery or user experience
-- Collaborates effectively with other departments to drive business outcomes
-- Provides valuable input in hiring and team growth decisions
+  - Leads small project teams and provides technical direction
+  - Balances technical debt with product delivery needs
+  - Influences product roadmap with technical insights and feasibility analysis
+  - Implements and advocates for best practices in code quality and architecture
+  - Drives adoption of new technologies that improve product delivery or user experience
+  - Collaborates effectively with other departments to drive business outcomes
+  - Provides valuable input in hiring and team growth decisions
 
 expectations:
-  technical_expertise:
+  technical:
     exceeds: Leads technical decisions that impact multiple projects or systems. Advocates for best practices in software architecture, API design, and code quality across teams. Proactively mentors others on technical challenges.
     meets: Writes high-quality code that influences product and technical direction. Implements best practices in software design, API design, and code quality consistently.
-    needs_improvement: Requires frequent input on technical decisions or struggles to implement best practices consistently. Produces code that often needs significant revision.
+    misses: Requires frequent input on technical decisions or struggles to implement best practices consistently. Produces code that often needs significant revision.
 
-  project_ownership:
+  ownership:
     exceeds: Leads small project teams, provides technical direction, and coordinates cross-functional dependencies. Proactively manages risks and ensures alignment with broader business goals.
     meets: Manages and delivers small projects or features, ensuring alignment with business and technical goals. Provides technical direction and manages team collaboration effectively.
-    needs_improvement: Struggles to lead small projects or teams effectively. Requires significant input from others to coordinate, prioritize, and manage project risks and timelines.
+    misses: Struggles to lead small projects or teams effectively. Requires significant input from others to coordinate, prioritize, and manage project risks and timelines.
 
-  business_impact:
+  impact:
     exceeds: Anticipates future business needs and provides valuable technical insights to influence the product roadmap; suggests innovations that align with company goals.
     meets: Regularly aligns technical decisions with business needs and product strategy; provides insights during discussions that help shape long-term product direction.
-    needs_improvement: Struggles to align technical work with larger business goals; lacks initiative in contributing to product or business strategy discussions.
+    misses: Struggles to align technical work with larger business goals; lacks initiative in contributing to product or business strategy discussions.
 
-  collaboration_communication:
+  collaboration:
     exceeds: Acts as a bridge between teams, facilitating communication and ensuring alignment between engineering, product, and design teams. Communicates technical trade-offs and decisions clearly to stakeholders.
     meets: Collaborates closely with cross-functional teams, ensuring technical and business alignment. Communicates technical decisions and trade-offs clearly to stakeholders.
-    needs_improvement: Struggles to facilitate communication between teams or align technical decisions with business goals. Fails to effectively communicate trade-offs or technical decisions.
+    misses: Struggles to facilitate communication between teams or align technical decisions with business goals. Fails to effectively communicate trade-offs or technical decisions.
 
-  mentorship_support:
+  support:
     exceeds: Regularly mentors engineers and cross-functional peers, helping them navigate complex technical challenges and career development. Takes an active role in interviewing and hiring decisions.
     meets: Mentors junior and mid-level engineers, providing guidance on both technical and non-technical aspects. Participates in the interviewing and hiring process, providing valuable input.
-    needs_improvement: Provides inconsistent mentorship or guidance. Lacks involvement in the hiring process or struggles to offer consistent and well articulated rationale when participating in interviews.
+    misses: Provides inconsistent mentorship or guidance. Lacks involvement in the hiring process or struggles to offer consistent and well articulated rationale when participating in interviews.
 
   leadership:
     exceeds: Leads initiatives that improve cross-functional processes. Advocates for best in class developer experience and leads by example. Helps guide the team to better workflows and tooling.
     meets: Drives team-wide improvements to processes and tooling. Acts as a leader in discussions around best practices and developer experience, guiding team direction on process and workflow improvements.
-    needs_improvement: Rarely contributes to process improvement or struggles to lead team-wide initiatives. Fails to effectively guide the team in improving workflows and practices.
+    misses: Rarely contributes to process improvement or struggles to lead team-wide initiatives. Fails to effectively guide the team in improving workflows and practices.
 
 traits:
-- Lead small project teams, providing technical direction and ensuring alignment with business goals.
-- Drive discussions around code quality, architecture, and best practices in code reviews.
-- Write detailed documentation that not only explains technical decisions but also provides guidance for future development.
-- Provide valuable technical insights in product strategy discussions, influencing roadmap decisions.
-- Mentor junior and mid-level engineers, helping them grow their skills and guiding them through complex challenges.
-- Balance technical debt with product needs, ensuring long-term code health while delivering business value.
-- Take ownership of entire features or projects, coordinating cross-functional teams to ensure successful delivery.
-- Proactively make sure the team operates more efficiently and effectively.
-- Demonstrate strong problem-solving abilities, quickly identifying and resolving issues that affect multiple teams or systems.
-- Communicate complex technical concepts clearly to both technical and non-technical stakeholders, ensuring alignment.
+  - Lead small project teams, providing technical direction and ensuring alignment with business goals.
+  - Drive discussions around code quality, architecture, and best practices in code reviews.
+  - Write detailed documentation that not only explains technical decisions but also provides guidance for future development.
+  - Provide valuable technical insights in product strategy discussions, influencing roadmap decisions.
+  - Mentor junior and mid-level engineers, helping them grow their skills and guiding them through complex challenges.
+  - Balance technical debt with product needs, ensuring long-term code health while delivering business value.
+  - Take ownership of entire features or projects, coordinating cross-functional teams to ensure successful delivery.
+  - Proactively make sure the team operates more efficiently and effectively.
+  - Demonstrate strong problem-solving abilities, quickly identifying and resolving issues that affect multiple teams or systems.
+  - Communicate complex technical concepts clearly to both technical and non-technical stakeholders, ensuring alignment.
 
 management:
   goal: |
@@ -68,33 +68,33 @@ management:
     their ability to drive organizational change and mentor others.
 
   tips:
-  - Position them as technical leaders with real decision-making authority
-  - Include them in strategic planning and roadmap discussions
-  - Create opportunities for cross-team and cross-functional leadership
-  - Trust their technical judgment while helping them understand business context
-  - Support them in developing and executing their technical vision
-  - Help them balance technical leadership with hands-on development
+    - Position them as technical leaders with real decision-making authority
+    - Include them in strategic planning and roadmap discussions
+    - Create opportunities for cross-team and cross-functional leadership
+    - Trust their technical judgment while helping them understand business context
+    - Support them in developing and executing their technical vision
+    - Help them balance technical leadership with hands-on development
 
-  focus_areas:
-  - Strategic technical planning and vision setting
-  - Stakeholder management and influence
-  - Technical program management
-  - Team building and leadership
-  - Cross-functional collaboration
-  - Business and product strategy alignment
-  - Technical risk assessment and mitigation
+  areas:
+    - Strategic technical planning and vision setting
+    - Stakeholder management and influence
+    - Technical program management
+    - Team building and leadership
+    - Cross-functional collaboration
+    - Business and product strategy alignment
+    - Technical risk assessment and mitigation
 
-  measuring_progress:
-  - Success of initiatives they lead
-  - Adoption of technical practices they champion
-  - Growth and performance of teams they influence
-  - Impact of their architectural decisions
-  - Effectiveness of their cross-functional partnerships
-  - Quality of their strategic technical planning
+  measurement:
+    - Success of initiatives they lead
+    - Adoption of technical practices they champion
+    - Growth and performance of teams they influence
+    - Impact of their architectural decisions
+    - Effectiveness of their cross-functional partnerships
+    - Quality of their strategic technical planning
 
-  common_pitfalls:
-  - Limiting their influence to purely technical decisions
-  - Not involving them early enough in strategic discussions
-  - Allowing them to become isolated from hands-on development
-  - Failing to provide enough organizational context
-  - Not supporting their development as leaders
+  pitfalls:
+    - Limiting their influence to purely technical decisions
+    - Not involving them early enough in strategic discussions
+    - Allowing them to become isolated from hands-on development
+    - Failing to provide enough organizational context
+    - Not supporting their development as leaders

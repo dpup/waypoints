@@ -1,25 +1,23 @@
 ---
-
+title: Compensation Process
 order: 2
 ---
 
 # Compensation Process
 
-Leveling and compensation are inherently linked. This addendum outlines a default compensation process which is designed to be complementary to the rest of the framework, aiming to support engineers throughout their career, with particular attention to enabling sustainable careers at the Senior Engineer (L4) level. 
-
+Leveling and compensation are inherently linked. This addendum outlines a default compensation process which is designed to be complementary to the rest of the framework, aiming to support engineers throughout their career, with particular attention to enabling sustainable careers at the Senior Engineer (L4) level.
 
 ## Base Salary Structure
 
 Base salaries should be determined using market data from compensation platforms like Pave. Companies should define their target pay positioning and regularly update it based on market reviews. Key factors in determining positioning typically include:
 
-* Geography
-* Company size, revenue, or funding stage
-* Target percentile
+- Geography
+- Company size, revenue, or funding stage
+- Target percentile
 
 For example, a fast-growing FinTech company might target the 75th percentile of New York-based Series B companies. A remote company could split the country into regions or set base salaries at the 50th percentile of companies making $10M in revenue in tier-2 locations.
 
 We recommend companies avoid salary negotiations where possible, ensuring that engineers at the same level and in the same location are hired at consistent pay rates.
-
 
 ### Salary adjustments
 
@@ -29,13 +27,11 @@ In most organizations, there is a point where plateauing at a certain skill leve
 
 To address this, we propose two additional methods for adjusting salaries between level promotions.
 
-
 #### Option A: Tenure-Based Adjustments
 
 The first option is to offer tenure-based adjustments based on years of service. This could be a 2-5% increase every 2-3 years. This might result in situations where a tenured senior engineer earns more than a brand new staff engineer. In practice this is not uncommon in companies which have overlapping salary bands, but more explicitly recognizes the value of institutional knowledge.
 
 This approach is relatively simple to administer and predict.
-
 
 #### Option B: Performance-Based Bonuses
 
@@ -45,31 +41,27 @@ This approach requires a robust performance evaluation process but can be adjust
 
 Companies should choose one approach and implement it consistently, as mixing both can create unnecessary complexity and potential inequities. You should also model your chosen model against budgets and financial plans.
 
-
 ## Equity Compensation
 
 We recommend following "The Wealthfront Model" for granting equity, ensuring that employees receive "evergreen grants." This model provides continuous equity grants throughout an employee’s tenure, ensuring long-term alignment with the company's success and reducing the need for large, ad hoc grants.
 
-
 ### Initial Grant
 
-* Four-year vesting schedule
-* 25% vesting at the one-year cliff
-* Monthly or quarterly vesting thereafter
+- Four-year vesting schedule
+- 25% vesting at the one-year cliff
+- Monthly or quarterly vesting thereafter
 
 Alternatives to the traditional schedule:
 
-* 5-year initial vesting period
-* Back-weighted vesting — vest 10%, 20%, 30%, 40% on years 1-4
-
+- 5-year initial vesting period
+- Back-weighted vesting — vest 10%, 20%, 30%, 40% on years 1-4
 
 ### Evergreen Refresher Grants
 
-* Begin in year two
-* Four-year vesting schedule, no cliff
-* Sized to maintain a target steady-state equity value
-* Additional refreshers may be granted for exceptional performance
-
+- Begin in year two
+- Four-year vesting schedule, no cliff
+- Sized to maintain a target steady-state equity value
+- Additional refreshers may be granted for exceptional performance
 
 ## Review Process
 
@@ -85,10 +77,9 @@ The tradeoff comes in administrative complexity. Running reviews throughout the 
 
 Regardless of the approach, certain principles remain important:
 
-* Reviews should consider both market data and individual performance
-* Decisions should be documented with clear rationale
-* Communication should be transparent and timely
-
+- Reviews should consider both market data and individual performance
+- Decisions should be documented with clear rationale
+- Communication should be transparent and timely
 
 ## Conclusion
 

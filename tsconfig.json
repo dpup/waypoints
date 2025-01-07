@@ -3,6 +3,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "baseUrl": ".",
+    "strictNullChecks": true,
+    "allowJs": true,
     "paths": {
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],

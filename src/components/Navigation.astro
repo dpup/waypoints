@@ -1,53 +1,44 @@
 ---
+import { getCollection, getEntry } from 'astro:content';
+
+const docs = await getCollection('docs');
+const guides = await getCollection('guides');
+const appendix = await getCollection('appendix');
+const coreRubrics = await getCollection('coreRubrics');
+
+const sorter = (a, b) => a.data.order - b.data.order;
+docs.sort(sorter);
+guides.sort(sorter);
+appendix.sort(sorter);
+
+coreRubrics.sort((a, b) => (a.data.title > b.data.title ? 1 : -1));
+
 const nav = [
   {
     title: 'Home',
     href: '#',
   },
-  {
-    title: 'Introduction',
-    href: '#',
-  },
-  {
-    title: 'General Principles',
-    href: '#',
-  },
+  ...docs.map((doc) => ({
+    title: doc.data.title,
+    href: doc.id,
+  })),
+
   {
     title: 'Core Track',
     href: '#',
     children: [
       {
-        title: 'Role Descriptions',
-        href: '#',
+        title: 'Role Overview',
+        href: 'rubrics/core/roles',
       },
       {
         title: 'Capabilities',
-        href: '#',
+        href: 'rubrics/core/capabilities',
       },
-      {
-        title: 'L1 Engineer',
-        href: '#',
-      },
-      {
-        title: 'L2 Engineer',
-        href: '#',
-      },
-      {
-        title: 'L3 Engineer',
-        href: '#',
-      },
-      {
-        title: 'L4 Senior',
-        href: '#',
-      },
-      {
-        title: 'L5 Staff',
-        href: '#',
-      },
-      {
-        title: 'L6 Principal',
-        href: '#',
-      },
+      ...coreRubrics.map((rubric) => ({
+        title: rubric.data.title,
+        href: `rubrics/core/${rubric.id}`,
+      })),
     ],
   },
   {
@@ -55,7 +46,7 @@ const nav = [
     href: '#',
     children: [
       {
-        title: 'Role Descriptions',
+        title: 'Role Overview',
         href: '#',
       },
       {
@@ -83,42 +74,22 @@ const nav = [
   {
     title: 'Guides',
     href: '#',
-    children: [
-      {
-        title: 'Guide A',
-        href: '#',
-      },
-      {
-        title: 'Guide B',
-        href: '#',
-      },
-      {
-        title: 'Guide C',
-        href: '#',
-      },
-    ],
+    children: guides.map((guide) => ({
+      title: guide.data.title,
+      href: `/guides/${guide.id}`,
+    })),
   },
   {
     title: 'Appendixes',
     href: '#',
-    children: [
-      {
-        title: 'Appendix A',
-        href: '#',
-      },
-      {
-        title: 'Appendix B',
-        href: '#',
-      },
-      {
-        title: 'Appendix C',
-        href: '#',
-      },
-    ],
+    children: appendix.map((appendix) => ({
+      title: appendix.data.title,
+      href: `/appendix/${appendix.id}`,
+    })),
   },
   {
     title: 'Contributors & Collaborators',
-    href: '#',
+    href: '/credits',
   },
 ];
 ---
@@ -142,7 +113,7 @@ const nav = [
               <div class="mt-1 space-y-1">
                 {item.children.map((child) => (
                   <a
-                    href="#"
+                    href={child.href}
                     class="block px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-slate-100 hover:text-slate-900"
                   >
                     {child.title}
@@ -153,7 +124,7 @@ const nav = [
           ) : (
             <div class="">
               <a
-                href="#"
+                href={item.href}
                 class="block px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-slate-100 hover:text-slate-900"
               >
                 {item.title}
@@ -170,8 +141,8 @@ const nav = [
   import { isNavOpen } from './stores.js';
 
   isNavOpen.subscribe((open) => {
-    document.getElementById('sidebar').classList.toggle('translate-x-0', open);
-    document.getElementById('sidebar').classList.toggle('lg:translate-x-0', !open);
-    document.getElementById('sidebar').classList.toggle('-translate-x-full', !open);
+    document.getElementById('sidebar')!.classList.toggle('translate-x-0', open);
+    document.getElementById('sidebar')!.classList.toggle('lg:translate-x-0', !open);
+    document.getElementById('sidebar')!.classList.toggle('-translate-x-full', !open);
   });
 </script>
