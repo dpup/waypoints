@@ -1,20 +1,37 @@
-const fs = require('fs');
-const yaml = require('yaml');
-const Ajv = require('ajv');
+import { readFileSync, readdir } from 'fs';
+import { parse } from 'yaml';
+import Ajv from 'ajv';
+import { resolve, join, extname, dirname } from 'path';
+import { fileURLToPath } from 'url';
 const ajv = new Ajv();
 
-// TODO: Update to scan all rubrics using FS.
-
-const fileContent = fs.readFileSync('./content/rubrics/core/L1.yaml', 'utf8');
-const data = yaml.parse(fileContent);
-
-const schema = JSON.parse(fs.readFileSync('./content/rubrics/core/_schema.json', 'utf8'));
-
+const rubricsDir = resolve(dirname(fileURLToPath(import.meta.url)), '../content/rubrics/core');
+const schema = JSON.parse(readFileSync(join(rubricsDir, '_schema.json'), 'utf8'));
 const validate = ajv.compile(schema);
-const valid = validate(data);
 
-if (valid) {
-  console.log('YAML is valid!');
-} else {
-  console.error('Validation errors:', validate.errors);
-}
+const hasErrors = false;
+
+readdir(rubricsDir, (err, files) => {
+  if (err) {
+    console.error('Error reading directory:', err);
+    return;
+  }
+
+  files.forEach(file => {
+    if (extname(file) === '.yaml' && file !== '_schema.yaml') {
+      const filePath = join(rubricsDir, file);
+      const fileContent = readFileSync(filePath, 'utf8');
+      const data = parse(fileContent);
+
+      const valid = validate(data);
+
+      if (!valid) {
+        console.error(`❌ ${file} validation errors:`, validate.errors);
+        hasErrors = true;
+      }
+    }
+  });
+});
+
+if (hasErrors) process.exit(1);
+else console.log('✅ Rubrics are valid');

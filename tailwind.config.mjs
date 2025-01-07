@@ -19,7 +19,7 @@ export default {
         '4xl': ['50px', { lineHeight: '75px' }],
       },
       // Styles for 'prose' classes.
-      typography: ({ theme }) => ({
+      typography: () => ({
         DEFAULT: {
           css: {
             a: {

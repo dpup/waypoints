@@ -6,13 +6,14 @@
   "bugs": {
     "url": "https://github.com/dpup/waypnts.com/issues"
   },
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check",
+    "check": "astro check && node ./tools/validate-rubrics.js",
     "astro": "astro",
     "format": "prettier --write .",
     "fmt": "prettier --write ."
