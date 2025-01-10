@@ -1,0 +1,113 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Layout from '@layouts/Layout.astro';
+import Content from '@components/Content.astro';
+import CapabilityLabel from '@components/CapabilityLabel.astro';
+
+export async function getStaticPaths() {
+  const coreRubrics = await getCollection('coreRubrics');
+  const managerRubrics = await getCollection('managerRubrics');
+
+  return [
+    ...coreRubrics.map((rubric) => ({
+      params: { category: 'core', level: rubric.data.level.toLowerCase() },
+    })),
+    ...managerRubrics.map((rubric) => ({
+      params: { category: 'manager', level: rubric.data.level.toLowerCase() },
+    })),
+  ];
+}
+
+const { category, level } = Astro.params;
+const { data: rubric } = await getEntry(`${category}Rubrics`, level);
+---
+
+<Layout title={`${rubric.level} ${rubric.title}`} description={rubric.description}>
+  <Content>
+    <h1>{rubric.level} {rubric.title}</h1>
+    <p>{rubric.description}</p>
+
+    <h2>Responsibilities</h2>
+    <ul>
+      {rubric.responsibilities.map((responsibility) => <li>{responsibility}</li>)}
+    </ul>
+
+    <h2>Expectations</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Capability</th>
+          <th>Needs Improvement</th>
+          <th>Meets Expectations</th>
+          <th>Exceeds Expectations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          Object.keys(rubric.expectations).map((capability) => (
+            <tr>
+              <td>
+                <CapabilityLabel category={category} capability={capability} />
+              </td>
+              <td>{rubric.expectations[capability].misses}</td>
+              <td>{rubric.expectations[capability].meets}</td>
+              <td>{rubric.expectations[capability].exceeds}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+
+    <h2>
+      What makes a good {
+        category === 'core' ? `${rubric.level} engineer` : rubric.title.toLowerCase()
+      }?
+    </h2>
+    <p>
+      When someone talks about a strongly performing {
+        category === 'core' ? `${rubric.level} engineer}` : rubric.title
+      }, you may hear that they:
+    </p>
+    <ul>
+      {rubric.traits.map((trait) => <li>{trait}</li>)}
+    </ul>
+
+    {
+      rubric.management && (
+        <>
+          <h2>
+            Managing {rubric.level} {rubric.title}s
+          </h2>
+          <p>{rubric.management.goal}</p>
+          <h3>Key approaches</h3>
+          <ul>
+            {rubric.management.tips.map((tip) => (
+              <li>{tip}</li>
+            ))}
+          </ul>
+
+          <h3>Development focus areas</h3>
+          <ul>
+            {rubric.management.areas.map((area) => (
+              <li>{area}</li>
+            ))}
+          </ul>
+
+          <h3>Measuring progress</h3>
+          <ul>
+            {rubric.management.measurement.map((progress) => (
+              <li>{progress}</li>
+            ))}
+          </ul>
+
+          <h3>Common pitfalls to avoid</h3>
+          <ul>
+            {rubric.management.pitfalls.map((pitfall) => (
+              <li>{pitfall}</li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </Content>
+</Layout>

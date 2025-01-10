@@ -5,6 +5,7 @@
     "baseUrl": ".",
     "strictNullChecks": true,
     "allowJs": true,
+    "verbatimModuleSyntax": true,
     "paths": {
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],

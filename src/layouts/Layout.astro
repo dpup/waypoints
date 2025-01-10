@@ -4,26 +4,22 @@ import PostHog from '@components/PostHog.astro';
 import Header from '@components/Header.astro';
 import Navigation from '@components/Navigation.astro';
 
-const { frontmatter } = Astro.props;
+const { title, description, canonicalURL } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={frontmatter.description} />
+    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
     <title>
-      {
-        frontmatter.title
-          ? frontmatter.title + ' | Waypoints'
-          : 'Waypoints | Career Development for Software Engineers'
-      }
+      {title ? title + ' | Waypoints' : 'Waypoints | Career Development for Software Engineers'}
     </title>
 
     <link
       rel="canonical"
-      href={frontmatter.canonical || `https://waypnts.com${Astro.url.pathname.replace(/\/$/, '')}`}
+      href={canonicalURL || `https://waypnts.com${Astro.url.pathname.replace(/\/$/, '')}`}
     />
     <link rel="icon" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

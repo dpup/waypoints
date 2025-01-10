@@ -1,0 +1,31 @@
+---
+interface Props {
+  category: 'core' | 'manager';
+  capability: string;
+}
+
+const { category, capability } = Astro.props;
+
+const labels = {
+  core: {
+    technical: 'Technical Expertise',
+    ownership: 'Project Ownership',
+    impact: 'Business Impact',
+    collaboration: 'Communication & Collaboration',
+    support: 'Mentorship & Support',
+    leadership: 'Leaership & Process Improvement',
+  },
+  manager: {
+    technical: 'Technical Expertise',
+    strategy: 'Strategy',
+    culture: 'Culture',
+    planning: 'Planning & Resource Management',
+    collaboration: 'Collaboration & Teamwork',
+    leadership: 'Leadership & Coaching',
+  },
+};
+
+const label = labels[category]?.[capability] ?? capability;
+---
+
+{label}
