@@ -1,0 +1,47 @@
+title: Senior Engineering Manager
+description: |
+  M4 managers are seasoned people leaders who can handle complex team dynamics. They're adept at managing both individual contributors and other managers, creating a cohesive unit that's greater than the sum of its parts. They're strategic thinkers who can translate high-level company goals into actionable team objectives. They're not just focused on their immediate team; they're actively working to improve cross-team collaboration and overall engineering effectiveness.
+responsibilities:
+  - Manages individual contributors and potentially other managers
+  - Aligns multiple teams or sub-teams towards common product goals
+  - Develops and implements engineering processes that support rapid product iteration
+  - Balances short-term product needs with long-term technical health
+  - Manages complex cross-team dependencies and resource allocation
+  - Cultivates a strong product engineering culture within their teams
+  - Responsible for budgets and hiring plans
+
+expectations:
+  strategy:
+    exceeds: Translates company strategy into actionable goals for multiple teams or sub-teams, ensuring alignment across engineering groups. Proactively balances immediate product needs with long-term technical goals, guiding teams to make strategic technical decisions that optimize for both.
+    meets: Aligns multiple teams toward common strategic goals and ensures team objectives support company direction. Balances short-term product goals with long-term technical health.
+    misses: Struggles to align teams with strategic goals. Fails to consider long-term implications of decisions, focusing too heavily on short-term outcomes.
+
+  culture:
+    exceeds: Cultivates a strong engineering culture across multiple teams or sub-teams, ensuring that company values and practices are embraced. Leads initiatives to improve team dynamics, promote inclusion, and enhance collaboration. Recognized for creating a cohesive, high-performing culture across groups.
+    meets: Fosters a strong product engineering culture within the teams, ensuring alignment with company values. Encourages collaboration and team cohesion across sub-teams.
+    misses: Struggles to promote a cohesive culture across teams or sub-teams. Fails to address challenges in team dynamics, doesn’t effectively foster collaboration and inclusion, or fails to balance effectiveness with engagement.
+
+  planning:
+    exceeds: Oversees the planning and resource management of multiple teams. Anticipates complex cross-team dependencies and manages resource allocation to ensure smooth delivery across teams. Balances short-term project needs with long-term resource planning to optimize team effectiveness and support sustainable delivery.
+    meets: Effectively manages resources across multiple teams or sub-teams, ensuring that cross-team dependencies are handled smoothly and timelines are met. Plans ahead to balance current and future resource needs.
+    misses: Struggles to manage resources across multiple teams, leading to inefficient use of capacity or bottlenecks. Fails to anticipate resource needs or manage dependencies effectively.
+
+  collaboration:
+    exceeds: Ensures that multiple teams or sub-teams are working in sync toward common goals, fostering collaboration across different departments. Maintains a consistent and effective work rhythm across teams, removing cross-team blockers swiftly. Builds strong cross-team relationships and facilitates communication between teams.
+    meets: Ensures collaboration between teams and aligns them towards shared objectives. Keeps multiple teams or sub-teams working effectively, with consistent communication and coordination.
+    misses: Struggles to maintain alignment across multiple teams, leading to miscommunication or missed deadlines. Fails to keep a steady work rhythm across teams, causing inefficiencies
+
+  leadership:
+    exceeds: Coaches both individual contributors and managers, helping them develop leadership and technical skills. Provides structured mentorship and guidance to ensure team leads and managers are effective. Invests in leadership development and actively supports career progression within the team.
+    meets: Provides coaching and mentorship to both individual contributors and team leads or managers. Supports their growth and ensures performance feedback is regular and effective.
+    misses: Struggles to mentor or coach other managers. Fails to provide effective leadership development, limiting team leads' or managers’ ability to grow and lead effectively.
+
+  technical:
+    exceeds: Guides multiple teams in making sound technical decisions, maintaining a strong understanding of architectural trends and best practices. Actively leads discussions around complex technical problems and helps teams balance short-term and long-term technical trade-offs.
+    meets: Stays involved in the technical direction of multiple teams, ensuring alignment with best practices and product goals. Provides technical oversight and supports high-level decisions.
+    misses: Struggles to provide the right level of technical guidance, either fails to stay updated on best practices or fails to delegate technical decision-making effectively.
+
+traits:
+  - placeholder 1
+  - placeholder 2
+  - placeholder 3

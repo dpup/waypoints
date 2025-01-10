@@ -1,0 +1,47 @@
+title: Director
+description: |
+  M5 directors are shaping the future of entire engineering departments. They're visionaries who can see beyond the immediate horizon, anticipating future challenges and opportunities. They're not just managing teams; they're building and evolving organizations. They're adept at navigating complex political landscapes, advocating for engineering needs at the highest levels of the company. They're the guardians of engineering culture, ensuring that growth and change don't come at the cost of the values that make the organization great.
+responsibilities:
+  - Manages multiple teams or sub-teams through other managers
+  - Develops and executes on long-term technical strategies that support product vision
+  - Collaborates with product leadership to align engineering efforts with business priorities
+  - Drives innovation and adoption of new technologies across multiple teams
+  - Manages large-scale technical debt and architectural evolution
+  - Establishes and maintains strong relationships with key partners and stakeholders
+  - Plays a key role in shaping the overall direction of the engineering organization
+
+expectations:
+  strategy:
+    exceeds: Shapes the long-term technical strategy for multiple teams or sub-teams. Develops and executes strategies that support product vision and drive technical innovation across teams. Ensures strategic alignment between engineering efforts and business priorities, driving key decisions at the department level.
+    meets: Develops and executes long-term technical strategies that support product vision. Aligns engineering efforts with business priorities and ensures teams work toward the same goals.
+    misses: Struggles to develop or execute long-term technical strategies. Fails to align engineering efforts with business priorities or product vision.
+
+  culture:
+    exceeds: Shapes the engineering culture at the department level, ensuring alignment with company values and fostering an environment that promotes innovation, inclusion, and engagement. Actively drives cultural initiatives that improve cross-team collaboration and organizational effectiveness.
+    meets: Promotes a strong engineering culture that aligns with company values. Ensures that growth and change are managed while maintaining the company’s core values and team dynamics.
+    misses: Struggles to maintain a positive culture as the organization scales. Fails to effectively promote core values or address cultural challenges at the departmental level.
+
+  planning:
+    exceeds: Oversees planning across multiple departments, ensuring alignment with long-term business goals. Handled budgets and hiring plans, ensuring that high-priority projects are staffed while maintaining balance across teams. Anticipates shifts in resource needs due to strategic changes and adapts plans accordingly.
+    meets: Manages budgets and hiring plans at the department level, ensuring that resources are allocated effectively across teams to meet both short-term and
+    misses: Struggles to manage resources at the department level, leading to overcommitted teams or misallocation of resources. Fails to anticipate strategic shifts in resource needs.
+
+  collaboration:
+    exceeds: Fosters collaboration across the entire department, ensuring that teams are aligned with business and product goals. Maintains strong relationships with key stakeholders and ensures a consistent work rhythm across teams to meet organizational objectives. Drives initiatives that improve cross-team collaboration and communication.
+    meets: Ensures collaboration across multiple teams or departments, aligning efforts with business goals. Keeps a steady rhythm of work across the department and resolves cross-team dependencies effectively.
+    misses: Struggles to collaborate or communicate effectively at the department level, resulting in misalignment. Fails to maintain a consistent rhythm of work across teams, impacting delivery timelines.
+
+  leadership:
+    exceeds: Develops a leadership pipeline across teams, mentoring senior managers and team leads to become effective leaders. Plays a key role in developing and coaching the next generation of engineering leaders, ensuring alignment with the department’s strategic goals. Provides thoughtful, personalized coaching and consistently invests in the growth of the team.
+    meets: Coaches senior managers and team leads effectively, providing regular feedback and career development guidance. Ensures leadership development and talent growth are consistent with team and department goals.
+    misses: Struggles to develop a leadership pipeline or provide coaching to senior managers and team leads. Lacks a structured approach to leadership development, limiting the team’s growth.
+
+  technical:
+    exceeds: Maintains technical relevance by staying informed about emerging industry trends and new technologies. Drives innovation across the department by encouraging the adoption of technologies that align with the company’s long-term vision. Provides technical leadership that influences departmental decisions and architectural evolution.
+    meets: Provides high-level technical oversight for the department, ensuring that technical decisions are forward-looking and aligned with industry best practices. Keeps the team focused on long-term technical health.
+    misses: Fails to stay technically relevant or aware of industry trends, leading to stagnation. Struggles to influence departmental technical decisions or drive innovation. Promotes technology choices that are inappropriate for the company or fail to solve key problems.
+
+traits:
+  - placeholder 1
+  - placeholder 2
+  - placeholder 3

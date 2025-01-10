@@ -1,0 +1,42 @@
+title: Senior Director
+description: |
+  M6 senior directors are the engineering leaders who shape the technological future of the entire company. They're not just part of the leadership team; they're key drivers of company strategy. They balance technical knowledge with broad business acumen, making decisions that will determine the company's success for years to come. They're the face of engineering both internally and externally, setting the tone for the entire technical organization and representing the company in the broader tech community.
+responsibilities:
+  - Leads one functional business unit within the company
+  - Develops and communicates a compelling technical vision that supports company strategy
+  - Influences product strategy at the executive level, representing engineering perspective
+  - Manages senior leaders, focusing on their growth and effectiveness
+  - Drives large-scale organizational changes to improve product delivery capabilities
+  - Establishes strong engineering brand to attract and retain top talent
+  - Represents the company's engineering capabilities to external partners and at industry events
+
+expectations:
+  strategy:
+    exceeds: Sets a compelling technical vision for the entire business unit, driving strategic initiatives that influence company success. Partners with executive leadership to align engineering strategy with company-wide goals, making high-level decisions that impact the future direction of the company. Represents engineering in top-level product and business strategy discussions.
+    meets: Develops and communicates a technical vision that supports company strategy. Represents engineering’s perspective at the executive level and helps influence product strategy.
+    misses: Struggles to influence company-wide strategy or lacks a clear vision for the engineering organization. Fails to connect technical vision with company goals.
+
+  culture:
+    exceeds: Sets the standard for engineering culture across the entire business unit, ensuring alignment with company values and fostering a culture of excellence, innovation, and inclusivity. Actively drives company-wide cultural initiatives and represents the company’s engineering culture to the broader tech community.
+    meets: Establishes and maintains a strong engineering culture that reflects the company’s values. Drives initiatives to attract and retain top talent while promoting a healthy, collaborative environment. Collaborates actively with HR/People Ops.
+    misses: Struggles to shape or maintain a cohesive engineering culture at the company level. Fails to align the company’s technical culture with its core values or to attract talent.
+
+  planning:
+    exceeds: Oversees resource management and planning across the organization, ensuring alignment with both short-term priorities and long-term company strategy. Anticipates resource needs at an organizational level and drives planning initiatives that optimize resource allocation across engineering teams. Develops scalable processes for resource management
+    meets: Manages resources across the organization, ensuring alignment with strategic goals. Effectively balances resource allocation for large-scale, cross-functional initiatives and ensures that planning supports long-term growth.
+    misses: Struggles to manage organizational resource planning effectively. Fails to align resource management with company strategy, leading to inefficiencies and misaligned priorities.
+
+  collaboration:
+    exceeds: Drives collaboration across the organization, aligning engineering efforts with business and product strategies. Maintains a strong work rhythm across the company’s engineering function and ensures teams are working in sync with each other and other departments. Builds and sustains partnerships across the company, ensuring effective cross-team and cross-functional collaboration.
+    meets: Ensures alignment across the engineering organization, maintaining strong communication and collaboration with other departments. Maintains a consistent rhythm of work to meet strategic goals.
+    misses: Fails to foster collaboration across the organization, resulting in inefficiencies and misaligned efforts. Struggles to keep a strong, consistent rhythm of work across teams.
+
+  leadership:
+    exceeds: Provides strategic coaching to senior leaders and managers, increasing the leadership capacity of the entire organization. Shapes leadership development programs and ensures alignment between leadership growth and company strategy. Plays a pivotal role in building leadership depth across the company, mentoring high-potential leaders and influencing organizational leadership practices across functions.
+    meets: Coaches senior leaders and managers effectively, focusing on their growth and effectiveness. Ensures leadership growth aligns with long-term company strategy and organizational goals.
+    misses: Struggles to coach senior leaders effectively or to align leadership development with broader company goals. Fails to shape or support leadership development at an organizational level.
+
+  technical:
+    exceeds: Stays on the cutting edge of industry trends and translating those trends into actionable strategies for the organization. Collaborates with senior technical staff to set technical direction by identifying innovations and technologies that will provide a competitive advantage. Provides thought leadership both internally and externally, representing the company’s technical vision at industry events.
+    meets: Stays technically relevant by keeping up with industry trends and ensuring that the organization’s technical strategies are aligned with future opportunities. Provides leadership in guiding the company’s technical evolution.
+    misses: Loses technical relevance and struggles to influence the company’s technical direction. Fails to translate industry trends into actionable strategies for the organization.

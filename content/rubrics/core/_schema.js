@@ -1,10 +1,6 @@
 import { z } from 'zod';
 
-const expectations = z.object({
-  exceeds: z.string(),
-  meets: z.string(),
-  misses: z.string(),
-});
+import { expectations, baseRubric } from '../_schema.js';
 
 const management = z.object({
   goal: z.string(),
@@ -14,10 +10,7 @@ const management = z.object({
   pitfalls: z.array(z.string()),
 });
 
-const rubric = z.object({
-  title: z.string(),
-  description: z.string(),
-  responsibilities: z.array(z.string()),
+const rubric = baseRubric.extend({
   expectations: z.object({
     technical: expectations,
     ownership: expectations,
@@ -26,7 +19,6 @@ const rubric = z.object({
     support: expectations,
     leadership: expectations,
   }),
-  traits: z.array(z.string()),
   management: management,
 });
 
