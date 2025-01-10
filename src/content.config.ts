@@ -3,6 +3,7 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 import coreRubricSchema from '../content/rubrics/core/_schema';
+import managerRubricSchema from '../content/rubrics/manager/_schema';
 
 // Default schema for markdown files.
 const mdSchema = z.object({
@@ -30,4 +31,9 @@ const coreRubrics = defineCollection({
   schema: coreRubricSchema,
 });
 
-export const collections = { docs, guides, appendix, coreRubrics };
+const managerRubrics = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './content/rubrics/manager' }),
+  schema: managerRubricSchema,
+});
+
+export const collections = { docs, guides, appendix, coreRubrics, managerRubrics };

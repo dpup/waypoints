@@ -5,13 +5,16 @@ const docs = await getCollection('docs');
 const guides = await getCollection('guides');
 const appendix = await getCollection('appendix');
 const coreRubrics = await getCollection('coreRubrics');
+const managerRubrics = await getCollection('managerRubrics');
 
-const sorter = (a, b) => a.data.order - b.data.order;
-docs.sort(sorter);
-guides.sort(sorter);
-appendix.sort(sorter);
+const orderSorter = (a, b) => a.data.order - b.data.order;
+const levelSorter = (a, b) => (a.data.level > b.data.level ? 1 : -1);
 
-coreRubrics.sort((a, b) => (a.data.title > b.data.title ? 1 : -1));
+docs.sort(orderSorter);
+guides.sort(orderSorter);
+appendix.sort(orderSorter);
+coreRubrics.sort(levelSorter);
+managerRubrics.sort(levelSorter);
 
 const nav = [
   {
@@ -25,55 +28,40 @@ const nav = [
 
   {
     title: 'Core Track',
-    href: '#',
     children: [
       {
         title: 'Role Overview',
-        href: 'rubrics/core/roles',
+        href: '/rubrics/core/roles',
       },
       {
         title: 'Capabilities',
-        href: 'rubrics/core/capabilities',
+        href: '/rubrics/core/capabilities',
       },
       ...coreRubrics.map((rubric) => ({
-        title: rubric.data.title,
-        href: `rubrics/core/${rubric.id}`,
+        title: `${rubric.data.level} ${rubric.data.title}`,
+        href: `/rubrics/core/${rubric.data.id}`,
       })),
     ],
   },
   {
     title: 'Manager Track',
-    href: '#',
     children: [
       {
         title: 'Role Overview',
-        href: '#',
+        href: '/rubrics/manager/roles',
       },
       {
         title: 'Capabilities',
-        href: '#',
+        href: '/rubrucs/manager/capabilities',
       },
-      {
-        title: 'M3 Manager',
-        href: '#',
-      },
-      {
-        title: 'M4 Senior Manager',
-        href: '#',
-      },
-      {
-        title: 'M5 Director',
-        href: '#',
-      },
-      {
-        title: 'M6 Senior Director',
-        href: '#',
-      },
+      ...managerRubrics.map((rubric) => ({
+        title: `${rubric.data.level} ${rubric.data.title}`,
+        href: `/rubrics/manager/${rubric.id}`,
+      })),
     ],
   },
   {
     title: 'Guides',
-    href: '#',
     children: guides.map((guide) => ({
       title: guide.data.title,
       href: `/guides/${guide.id}`,
@@ -81,7 +69,6 @@ const nav = [
   },
   {
     title: 'Appendixes',
-    href: '#',
     children: appendix.map((appendix) => ({
       title: appendix.data.title,
       href: `/appendix/${appendix.id}`,

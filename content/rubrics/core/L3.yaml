@@ -1,4 +1,5 @@
-title: L3
+level: L3
+title: Software Engineer
 description: |
   L3 engineers are hitting their stride. They're the reliable workhorses of the
   team, consistently delivering high-quality work. They're not just implementing
@@ -9,13 +10,13 @@ description: |
   junior team members.
 
 responsibilities:
-  - Owns small to medium-sized projects or features
-  - Proactively considers user needs and business impact in technical decisions
-  - Architects scalable and maintainable solutions for complex problems
-  - Mentors junior engineers and contributes to their growth
-  - Actively participates in product discussions, offering technical insights
-  - Drives improvements in development processes and tooling
-  - Demonstrates strong debugging and problem-solving skills
+- Owns small to medium-sized projects or features
+- Proactively considers user needs and business impact in technical decisions
+- Architects scalable and maintainable solutions for complex problems
+- Mentors junior engineers and contributes to their growth
+- Actively participates in product discussions, offering technical insights
+- Drives improvements in development processes and tooling
+- Demonstrates strong debugging and problem-solving skills
 
 expectations:
   technical:
@@ -49,16 +50,16 @@ expectations:
     misses: Struggles to manage their own work independently or suggest improvements to team processes. Fails to contribute meaningfully to team discussions about workflows or tooling.
 
 traits:
-  - Deliver small to medium-sized projects independently, making sure they’re scalable and well-maintained.
-  - Provide thoughtful, constructive feedback during code reviews and helps guide junior engineers.
-  - Write comprehensive documentation that covers technical decisions, trade-offs, and implementation details.
-  - Actively participate in product discussions, offering technical insights that help shape the direction of features.
-  - Take on mentorship roles, helping junior engineers learn best practices and navigate complex problems.
-  - Balance technical debt and feature delivery, ensuring both short-term wins and long-term stability.
-  - Are a go-to person for specific areas of the codebase, helping the team understand and navigate those parts.
-  - Actively contribute to improving team processes and tooling, suggesting ways to enhance efficiency.
-  - Demonstrate strong debugging skills, resolving issues quickly and helping others troubleshoot as needed.
-  - Consistently deliver high-quality work on time and clearly communicates progress and challenges to stakeholders.
+- Deliver small to medium-sized projects independently, making sure they’re scalable and well-maintained.
+- Provide thoughtful, constructive feedback during code reviews and helps guide junior engineers.
+- Write comprehensive documentation that covers technical decisions, trade-offs, and implementation details.
+- Actively participate in product discussions, offering technical insights that help shape the direction of features.
+- Take on mentorship roles, helping junior engineers learn best practices and navigate complex problems.
+- Balance technical debt and feature delivery, ensuring both short-term wins and long-term stability.
+- Are a go-to person for specific areas of the codebase, helping the team understand and navigate those parts.
+- Actively contribute to improving team processes and tooling, suggesting ways to enhance efficiency.
+- Demonstrate strong debugging skills, resolving issues quickly and helping others troubleshoot as needed.
+- Consistently deliver high-quality work on time and clearly communicates progress and challenges to stakeholders.
 
 management:
   goal: |
@@ -67,29 +68,29 @@ management:
     drive larger initiatives and to juggle multiple concurrent workstreams.
 
   tips:
-    - Grant significant autonomy in technical decision-making while remaining available as a sounding board
-    - Create opportunities for them to influence product strategy and technical architecture
-    - Encourage them to develop and document technical standards and best practices
-    - Help them balance individual contribution with mentoring responsibilities
-    - Support them in building relationships across the organization
+  - Grant significant autonomy in technical decision-making while remaining available as a sounding board
+  - Create opportunities for them to influence product strategy and technical architecture
+  - Encourage them to develop and document technical standards and best practices
+  - Help them balance individual contribution with mentoring responsibilities
+  - Support them in building relationships across the organization
 
   areas:
-    - Technical influence
-    - Project planning and risk management
-    - System design and architecture decisions
-    - Cross-functional communication and collaboration
-    - Strategic thinking and business alignment
-    - Technical debt management and trade-off decisions
+  - Technical influence
+  - Project planning and risk management
+  - System design and architecture decisions
+  - Cross-functional communication and collaboration
+  - Strategic thinking and business alignment
+  - Technical debt management and trade-off decisions
 
   measurement:
-    - Evaluate the success of projects they lead, not just their individual contributions
-    - Assess the quality and impact of their technical decisions
-    - Track their influence on team practices and standards
-    - Observe their effectiveness in product and architectural discussions
+  - Evaluate the success of projects they lead, not just their individual contributions
+  - Assess the quality and impact of their technical decisions
+  - Track their influence on team practices and standards
+  - Observe their effectiveness in product and architectural discussions
 
   pitfalls:
-    - Treating them solely as senior individual contributors
-    - Not providing enough exposure to strategic decisions
-    - Failing to develop their leadership and influence skills
-    - Overwhelming them with too many mentoring responsibilities
-    - Not challenging them with complex enough technical problems
+  - Treating them solely as senior individual contributors
+  - Not providing enough exposure to strategic decisions
+  - Failing to develop their leadership and influence skills
+  - Overwhelming them with too many mentoring responsibilities
+  - Not challenging them with complex enough technical problems

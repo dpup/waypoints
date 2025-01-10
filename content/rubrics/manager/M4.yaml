@@ -1,14 +1,15 @@
+level: M4
 title: Senior Engineering Manager
 description: |
   M4 managers are seasoned people leaders who can handle complex team dynamics. They're adept at managing both individual contributors and other managers, creating a cohesive unit that's greater than the sum of its parts. They're strategic thinkers who can translate high-level company goals into actionable team objectives. They're not just focused on their immediate team; they're actively working to improve cross-team collaboration and overall engineering effectiveness.
 responsibilities:
-  - Manages individual contributors and potentially other managers
-  - Aligns multiple teams or sub-teams towards common product goals
-  - Develops and implements engineering processes that support rapid product iteration
-  - Balances short-term product needs with long-term technical health
-  - Manages complex cross-team dependencies and resource allocation
-  - Cultivates a strong product engineering culture within their teams
-  - Responsible for budgets and hiring plans
+- Manages individual contributors and potentially other managers
+- Aligns multiple teams or sub-teams towards common product goals
+- Develops and implements engineering processes that support rapid product iteration
+- Balances short-term product needs with long-term technical health
+- Manages complex cross-team dependencies and resource allocation
+- Cultivates a strong product engineering culture within their teams
+- Responsible for budgets and hiring plans
 
 expectations:
   strategy:
@@ -42,6 +43,6 @@ expectations:
     misses: Struggles to provide the right level of technical guidance, either fails to stay updated on best practices or fails to delegate technical decision-making effectively.
 
 traits:
-  - placeholder 1
-  - placeholder 2
-  - placeholder 3
+- placeholder 1
+- placeholder 2
+- placeholder 3

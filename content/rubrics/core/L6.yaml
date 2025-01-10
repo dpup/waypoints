@@ -1,4 +1,5 @@
-title: L6 Principal
+level: L6
+title: Principal Software Engineer
 description: |
   L6 engineers are the ones setting the technical north star, aligning
   engineering efforts with the company's long-term vision. They're not just
@@ -9,13 +10,13 @@ description: |
   organization.
 
 responsibilities:
-  - Translates company vision into actionable technical strategies and projects
-  - Provides technical leadership across multiple teams or departments
-  - Drives innovation that creates significant competitive advantages
-  - Influences product strategy at the highest level, balancing technical feasibility with business goals
-  - Establishes engineering culture and values that align with product-focused mindset
-  - Acts as a key technical advisor to executive leadership
-  - Identifies and cultivates future technical leaders within the organization
+- Translates company vision into actionable technical strategies and projects
+- Provides technical leadership across multiple teams or departments
+- Drives innovation that creates significant competitive advantages
+- Influences product strategy at the highest level, balancing technical feasibility with business goals
+- Establishes engineering culture and values that align with product-focused mindset
+- Acts as a key technical advisor to executive leadership
+- Identifies and cultivates future technical leaders within the organization
 
 expectations:
   technical:
@@ -49,16 +50,16 @@ expectations:
     misses: Fails to drive impactful process improvements at the organizational level. Struggles to lead process change or ensure alignment with strategic goals across teams.
 
 traits:
-  - Lead initiatives that fundamentally set direction for the company
-  - Provide guidance during technical reviews that shapes architecture and engineering practices over time
-  - Develop pragmatic technical roadmaps that set the standard for future engineering work
-  - Partner with executive leadership to influence company strategy
-  - Mentor engineering leaders across the company, really helps to shape the next generation of technical leadership
-  - Identify and address strategic technical risks, setting the company up to avoid future issues and capitalize on opportunities
-  - Drive innovation, adopting new technologies and approaches that give the company a competitive edge
-  - Lead organization-wide process improvements, ensuring that engineering practices align with company goals and promote efficiency across all teams
-  - Solve complex, organization-wide technical challenges and is a go-to expert for high-priority, high-impact initiatives
-  - Act as a key technical advisor to executive leadership, ensuring alignment between long-term technical strategies and business objectives
+- Lead initiatives that fundamentally set direction for the company
+- Provide guidance during technical reviews that shapes architecture and engineering practices over time
+- Develop pragmatic technical roadmaps that set the standard for future engineering work
+- Partner with executive leadership to influence company strategy
+- Mentor engineering leaders across the company, really helps to shape the next generation of technical leadership
+- Identify and address strategic technical risks, setting the company up to avoid future issues and capitalize on opportunities
+- Drive innovation, adopting new technologies and approaches that give the company a competitive edge
+- Lead organization-wide process improvements, ensuring that engineering practices align with company goals and promote efficiency across all teams
+- Solve complex, organization-wide technical challenges and is a go-to expert for high-priority, high-impact initiatives
+- Act as a key technical advisor to executive leadership, ensuring alignment between long-term technical strategies and business objectives
 
 management:
   goal: |
@@ -68,33 +69,33 @@ management:
     partnership focused on aligning technical vision with business success.
 
   tips:
-    - Act as a strategic partner and sounding board rather than a traditional manager
-    - Provide broad organizational context and business strategy insights
-    - Help them navigate complex organizational dynamics
-    - Ensure they maintain connection to ground-level technical realities
-    - Support their role as technical advisors to the executive team
-    - Shield them from organizational politics while keeping them informed
+  - Act as a strategic partner and sounding board rather than a traditional manager
+  - Provide broad organizational context and business strategy insights
+  - Help them navigate complex organizational dynamics
+  - Ensure they maintain connection to ground-level technical realities
+  - Support their role as technical advisors to the executive team
+  - Shield them from organizational politics while keeping them informed
 
   areas:
-    - Strategic thinking at company and industry level
-    - Executive presence and influence
-    - Organizational transformation
-    - Technical innovation and competitive advantage
-    - Business strategy and market dynamics
+  - Strategic thinking at company and industry level
+  - Executive presence and influence
+  - Organizational transformation
+  - Technical innovation and competitive advantage
+  - Business strategy and market dynamics
 
   measurement:
-    - Company-wide technical strategy effectiveness
-    - Success of major technical transformations
-    - Growth and quality of technical leadership pipeline
-    - Innovation impact on business outcomes
-    - Industry recognition and thought leadership
-    - Technical culture and values adoption
-    - Executive team trust and influence
+  - Company-wide technical strategy effectiveness
+  - Success of major technical transformations
+  - Growth and quality of technical leadership pipeline
+  - Innovation impact on business outcomes
+  - Industry recognition and thought leadership
+  - Technical culture and values adoption
+  - Executive team trust and influence
 
   pitfalls:
-    - Isolating them from day-to-day engineering realities
-    - Not providing enough business context for strategic decisions
-    - Allowing them to become too removed from hands-on technology
-    - Failing to create appropriate executive visibility
-    - Not protecting time for strategic thinking and innovation
-    - Overwhelming them with tactical decision-making requests
+  - Isolating them from day-to-day engineering realities
+  - Not providing enough business context for strategic decisions
+  - Allowing them to become too removed from hands-on technology
+  - Failing to create appropriate executive visibility
+  - Not protecting time for strategic thinking and innovation
+  - Overwhelming them with tactical decision-making requests

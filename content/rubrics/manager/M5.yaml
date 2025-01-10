@@ -1,14 +1,15 @@
+level: M5
 title: Director
 description: |
   M5 directors are shaping the future of entire engineering departments. They're visionaries who can see beyond the immediate horizon, anticipating future challenges and opportunities. They're not just managing teams; they're building and evolving organizations. They're adept at navigating complex political landscapes, advocating for engineering needs at the highest levels of the company. They're the guardians of engineering culture, ensuring that growth and change don't come at the cost of the values that make the organization great.
 responsibilities:
-  - Manages multiple teams or sub-teams through other managers
-  - Develops and executes on long-term technical strategies that support product vision
-  - Collaborates with product leadership to align engineering efforts with business priorities
-  - Drives innovation and adoption of new technologies across multiple teams
-  - Manages large-scale technical debt and architectural evolution
-  - Establishes and maintains strong relationships with key partners and stakeholders
-  - Plays a key role in shaping the overall direction of the engineering organization
+- Manages multiple teams or sub-teams through other managers
+- Develops and executes on long-term technical strategies that support product vision
+- Collaborates with product leadership to align engineering efforts with business priorities
+- Drives innovation and adoption of new technologies across multiple teams
+- Manages large-scale technical debt and architectural evolution
+- Establishes and maintains strong relationships with key partners and stakeholders
+- Plays a key role in shaping the overall direction of the engineering organization
 
 expectations:
   strategy:
@@ -42,6 +43,6 @@ expectations:
     misses: Fails to stay technically relevant or aware of industry trends, leading to stagnation. Struggles to influence departmental technical decisions or drive innovation. Promotes technology choices that are inappropriate for the company or fail to solve key problems.
 
 traits:
-  - placeholder 1
-  - placeholder 2
-  - placeholder 3
+- placeholder 1
+- placeholder 2
+- placeholder 3

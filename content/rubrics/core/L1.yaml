@@ -1,4 +1,5 @@
-title: L1
+level: L1
+title: Software Engineer
 description: |
   A L1 engineer is taking their first steps into the world of professional
   software development. They're eager to learn and apply their knowledge,
@@ -9,12 +10,12 @@ description: |
   the importance of user needs.
 
 responsibilities:
-  - Writes clean, maintainable code
-  - Develops basic understanding of product goals and user needs
-  - Understands the importance of testing and documentation
-  - Collaborates with team members on small features or bug fixes
-  - Seeks and incorporates feedback and guidance regularly
-  - Develops foundational knowledge of version control and CI/CD processes
+- Writes clean, maintainable code
+- Develops basic understanding of product goals and user needs
+- Understands the importance of testing and documentation
+- Collaborates with team members on small features or bug fixes
+- Seeks and incorporates feedback and guidance regularly
+- Develops foundational knowledge of version control and CI/CD processes
 
 expectations:
   technical:
@@ -48,17 +49,17 @@ expectations:
     misses: Struggles to follow established processes and adapt to the team’s workflows. Rarely seeks opportunities to improve their personal efficiency or workflow.
 
 traits:
-  - Make sure their changes are well-tested and always cover those tricky edge cases.
-  - Actively seek out feedback during code reviews and quickly apply suggestions.
-  - Write clear, easy-to-understand documentation for any features or bug fixes they work on.
-  - Work well with teammates, asking thoughtful questions to get a better sense of the bigger picture.
-  - Regularly join team discussions and ask great questions during meetings.
-  - Are alway eager to jump in and take on bug fixes, getting them done with little supervision.
-  - Show a good understanding of version control, making clean commits and following the team’s practices for branching and pull requests.
-  - Adapt quickly to team processes, including things like CI/CD, sprint planning, and standups.
-  - Frequently test their work both locally and with automated tests before submitting it for review.
-  - Don’t hesitate to ask for help when something’s unclear, showing a real willingness to learn.
-  - Consistently meet deadlines and keep the team updated on progress.
+- Make sure their changes are well-tested and always cover those tricky edge cases.
+- Actively seek out feedback during code reviews and quickly apply suggestions.
+- Write clear, easy-to-understand documentation for any features or bug fixes they work on.
+- Work well with teammates, asking thoughtful questions to get a better sense of the bigger picture.
+- Regularly join team discussions and ask great questions during meetings.
+- Are alway eager to jump in and take on bug fixes, getting them done with little supervision.
+- Show a good understanding of version control, making clean commits and following the team’s practices for branching and pull requests.
+- Adapt quickly to team processes, including things like CI/CD, sprint planning, and standups.
+- Frequently test their work both locally and with automated tests before submitting it for review.
+- Don’t hesitate to ask for help when something’s unclear, showing a real willingness to learn.
+- Consistently meet deadlines and keep the team updated on progress.
 
 management:
   goal: |
@@ -68,31 +69,31 @@ management:
     professional software development as it is about technical skills.
 
   tips:
-    - Break work into small, well-defined tasks with clear success criteria
-    - Establish regular 1:1s focused on both technical growth and professional development
-    - Pair them with more senior engineers who can provide day-to-day guidance
-    - Create psychological safety around asking questions and making mistakes
-    - Provide context about how their work connects to broader product goals
-    - Set explicit expectations about when to ask for help (e.g., "if you're stuck for more than 30 minutes")
+  - Break work into small, well-defined tasks with clear success criteria
+  - Establish regular 1:1s focused on both technical growth and professional development
+  - Pair them with more senior engineers who can provide day-to-day guidance
+  - Create psychological safety around asking questions and making mistakes
+  - Provide context about how their work connects to broader product goals
+  - Set explicit expectations about when to ask for help (e.g., "if you're stuck for more than 30 minutes")
 
   areas:
-    - Code quality fundamentals
-    - Testing practices and the "why" behind different types of tests
-    - Git workflow and collaboration tools
-    - Basic debugging and problem-solving strategies
-    - How to read and understand existing codebases
-    - Documentation practices and clear communication
+  - Code quality fundamentals
+  - Testing practices and the "why" behind different types of tests
+  - Git workflow and collaboration tools
+  - Basic debugging and problem-solving strategies
+  - How to read and understand existing codebases
+  - Documentation practices and clear communication
 
   measurement:
-    - Focus on learning velocity rather than output
-    - Look for increasing independence on similar types of tasks
-    - Track their ability to help others with problems they've previously solved
-    - Notice improvements in their questions and problem-solving approach
-    - Monitor their growing understanding of the product and user needs
+  - Focus on learning velocity rather than output
+  - Look for increasing independence on similar types of tasks
+  - Track their ability to help others with problems they've previously solved
+  - Notice improvements in their questions and problem-solving approach
+  - Monitor their growing understanding of the product and user needs
 
   pitfalls:
-    - Overwhelming them with too much responsibility too quickly
-    - Assuming knowledge of development tools and practices
-    - Not providing enough context for assigned tasks
-    - Letting them struggle alone for too long
-    - Focusing solely on technical skills while neglecting professional development
+  - Overwhelming them with too much responsibility too quickly
+  - Assuming knowledge of development tools and practices
+  - Not providing enough context for assigned tasks
+  - Letting them struggle alone for too long
+  - Focusing solely on technical skills while neglecting professional development

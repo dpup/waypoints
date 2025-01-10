@@ -7,6 +7,7 @@ export const expectations = z.object({
 });
 
 export const baseRubric = z.object({
+  level: z.string(),
   title: z.string(),
   description: z.string(),
   responsibilities: z.array(z.string()),
