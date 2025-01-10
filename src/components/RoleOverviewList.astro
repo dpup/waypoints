@@ -1,0 +1,32 @@
+---
+// TODO: Get types from zod (see BaseRubric)
+interface Props {
+  category: string;
+  rubrics: Array<{
+    data: {
+      level: string;
+      description: string;
+      responsibilities: string[];
+    };
+  }>;
+}
+
+const { category, rubrics } = Astro.props;
+---
+
+{
+  rubrics.map((rubric) => (
+    <div>
+      <h2>{rubric.data.level}</h2>
+      <p>{rubric.data.description}</p>
+      <ul>
+        {rubric.data.responsibilities.map((responsibility) => (
+          <li>{responsibility}</li>
+        ))}
+      </ul>
+      <p>
+        <a href={`/rubrics/${category}/${rubric.data.level.toLowerCase()}`}>More &raquo;</a>
+      </p>
+    </div>
+  ))
+}

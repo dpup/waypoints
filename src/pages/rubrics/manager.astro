@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+
+import Layout from '@layouts/Layout.astro';
+import Content from '@components/Content.astro';
+import RoleOverviewList from '@components/RoleOverviewList.astro';
+
+import imgFrameworkComparisons from '@img/framework-comparisons.png';
+
+const managerRubrics = await getCollection('managerRubrics');
+managerRubrics.sort((a, b) => (a.data.level > b.data.level ? 1 : -1));
+---
+
+<Layout title="Overview of the Manager Track" description="">
+  <Content>
+    <h1>Manager Track</h1>
+    <p>
+      Engineering managers are leaders who empower teams to succeed, focusing on mentorship, growth,
+      and strategic alignment rather than acting as taskmasters. Their role is to create an
+      environment where engineers can thrive, guide the team in solving technical challenges, and
+      ensure projects align with broader business goals.
+    </p>
+    <p>
+      Rather than micromanaging tasks, an effective engineering manager facilitates collaboration,
+      removes obstacles, and supports team members in their professional development. Their primary
+      focus is enabling autonomy and accountability within the team while maintaining alignment with
+      organizational priorities.
+    </p>
+    <p>
+      It's rare for someone to transition into management and effectively lead engineers without
+      having done significant technical work themselves. Personal experience is crucial for
+      credibility, as engineers need to trust and respect their manager for the relationship to
+      work. However, how individuals transition to the management track can vary by company (and
+      potentially by individual).
+    </p>
+    <p>
+      We recommend the default path be to consistently exceed expectations at L4 before moving to
+      M3; this conveniently aligns with the job levels tracked by Pave, Option Impact, Radford, and
+      Mercer Comptryx without being a down-leveling.
+    </p>
+    <Image src={imgFrameworkComparisons} alt="Comparison of various leveling frameworks" />
+
+    <RoleOverviewList category="manager" rubrics={managerRubrics} />
+  </Content>
+</Layout>

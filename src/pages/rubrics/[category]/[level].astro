@@ -26,8 +26,6 @@ const { data: rubric } = await getEntry(`${category}Rubrics`, level);
   <Content>
     <h1>{rubric.level} {rubric.title}</h1>
     <p>{rubric.description}</p>
-
-    <h2>Responsibilities</h2>
     <ul>
       {rubric.responsibilities.map((responsibility) => <li>{responsibility}</li>)}
     </ul>
