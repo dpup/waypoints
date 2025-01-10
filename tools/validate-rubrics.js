@@ -4,22 +4,25 @@ import { join, dirname, basename, extname } from 'path';
 import { fileURLToPath } from 'url';
 import { fromError, isZodErrorLike } from 'zod-validation-error';
 
-import coreSchema from '../content/rubrics/core/_schema.js';
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const directoryPath = join(__dirname, '../content/rubrics/core');
-const yamlFiles = getYamlFiles(directoryPath);
-
 let hasError = false;
 
-yamlFiles.forEach((file) => {
-  const filePath = join(directoryPath, file);
-  if (!validateYamlFile(filePath)) {
-    hasError = true;
-  }
-});
+const dirs = ['core', 'manager'];
+
+await Promise.all(dirs.map(async (dir) => {
+  const {default: schema} = await import('../content/rubrics/' + dir + '/_schema.js');
+  const directoryPath = join(__dirname, '../content/rubrics/', dir);
+  const yamlFiles = getYamlFiles(directoryPath);
+
+  yamlFiles.forEach((file) => {
+    const filePath = join(directoryPath, file);
+    if (!validateYamlFile(filePath, schema)) {
+      hasError = true;
+    }
+  });
+}));
 
 if (hasError) {
   process.exit(1);
@@ -27,11 +30,11 @@ if (hasError) {
   console.log('✅ All rubrics are valid');
 }
 
-function validateYamlFile(filePath) {
+function validateYamlFile(filePath, schema) {
   try {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const data = yaml.parse(fileContents);
-    coreSchema.parse(data);
+    schema.parse(data);
     return true;
   } catch (err) {
     if (isZodErrorLike(err)) {

@@ -11,7 +11,6 @@ const rubric = baseRubric.extend({
     leadership: expectations,
     technical: expectations,
   }),
-  management: management,
 });
 
 export default rubric;

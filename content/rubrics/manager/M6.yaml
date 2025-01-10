@@ -2,13 +2,13 @@ title: Senior Director
 description: |
   M6 senior directors are the engineering leaders who shape the technological future of the entire company. They're not just part of the leadership team; they're key drivers of company strategy. They balance technical knowledge with broad business acumen, making decisions that will determine the company's success for years to come. They're the face of engineering both internally and externally, setting the tone for the entire technical organization and representing the company in the broader tech community.
 responsibilities:
-  - Leads one functional business unit within the company
-  - Develops and communicates a compelling technical vision that supports company strategy
-  - Influences product strategy at the executive level, representing engineering perspective
-  - Manages senior leaders, focusing on their growth and effectiveness
-  - Drives large-scale organizational changes to improve product delivery capabilities
-  - Establishes strong engineering brand to attract and retain top talent
-  - Represents the company's engineering capabilities to external partners and at industry events
+- Leads one functional business unit within the company
+- Develops and communicates a compelling technical vision that supports company strategy
+- Influences product strategy at the executive level, representing engineering perspective
+- Manages senior leaders, focusing on their growth and effectiveness
+- Drives large-scale organizational changes to improve product delivery capabilities
+- Establishes strong engineering brand to attract and retain top talent
+- Represents the company's engineering capabilities to external partners and at industry events
 
 expectations:
   strategy:
@@ -40,3 +40,8 @@ expectations:
     exceeds: Stays on the cutting edge of industry trends and translating those trends into actionable strategies for the organization. Collaborates with senior technical staff to set technical direction by identifying innovations and technologies that will provide a competitive advantage. Provides thought leadership both internally and externally, representing the company’s technical vision at industry events.
     meets: Stays technically relevant by keeping up with industry trends and ensuring that the organization’s technical strategies are aligned with future opportunities. Provides leadership in guiding the company’s technical evolution.
     misses: Loses technical relevance and struggles to influence the company’s technical direction. Fails to translate industry trends into actionable strategies for the organization.
+
+traits:
+- placeholder 1
+- placeholder 2
+- placeholder 3
