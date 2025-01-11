@@ -1,0 +1,102 @@
+# Core Track
+
+- id: core-technical
+  title: Technical Expertise
+  description: |
+    The ability to apply technical knowledge to complex problems and make sound
+    technical decisions. This includes understanding the underlying principles
+    of systems and technologies, as well as the ability to learn and apply new
+    tools and technologies effectively.
+
+- id: core-ownership
+  title: Project Ownership
+  description: |
+    The ability to take responsibility for tasks and projects, ensuring timely
+    delivery and clear communication of progress. This includes setting and
+    meeting deadlines, proactively seeking feedback, and demonstrating
+    accountability for the quality of work.
+
+- id: core-impact
+  title: Business Impact
+  description: |
+    The ability to understand how work contributes to product goals and user
+    needs, and to make decisions that align with business objectives. This
+    includes asking questions to clarify requirements, considering the impact
+    of technical decisions on users, and seeking feedback to ensure alignment
+    with broader goals.
+
+- id: core-collaboration
+  title: Communication & Collaboration
+  description: |
+    The ability to work effectively with others, including product and design
+    teams, and to contribute valuable insights in team discussions. This
+    includes asking thoughtful questions, offering ideas and feedback, and
+    actively participating in team meetings and discussions.
+
+- id: core-support
+  title: Mentorship & Support
+  description: |
+    The ability to seek and apply feedback for oneself, and to provide guidance
+    and assistance to peers and junior engineers. This includes offering
+    informal help, sharing knowledge, and assisting with small tasks, as well as
+    actively seeking opportunities to learn and grow beyond immediate tasks.
+
+- id: core-leadership
+  title: Leadership & Process Improvement
+  description: |
+    The ability to demonstrate self-discipline and improve personal workflows,
+    as well as to suggest small improvements to team processes. This includes
+    staying organized, prioritizing tasks, and delivering on time, as well as
+    participating in discussions around team workflows and contributing to
+    process improvements.
+
+# Manager Track
+
+- id: manager-technical
+  title: Technical Expertise
+  description: |
+    The ability to provide technical leadership such that teams make sound
+    technical decisions. This includes understanding the underlying principles
+    of systems and technologies, as well as the ability to learn and apply new
+    tools and technologies effectively.
+
+- id: manager-strategy
+  title: Strategy
+  description: |
+    The ability to develop a clear technical direction that aligns with broader
+    business goals. This includes setting and communicating a vision for the
+    team, as well as making decisions that support the long-term success of the
+    organization.
+
+- id: manager-culture
+  title: Culture
+  description: |
+    The ability to foster a positive team culture that values collaboration,
+    learning, and growth. This includes creating an inclusive environment,
+    providing opportunities for professional development, and promoting a
+    culture of continuous improvement.
+
+- id: manager-planning
+  title: Planning & Resource Management
+  description: |
+    The ability to plan and manage resources effectively to deliver projects on
+    time and within budget. This includes setting clear goals and priorities,
+    allocating resources appropriately, and adapting plans as needed to meet
+    changing requirements.
+
+- id: manager-collaboration
+  title: Collaboration & Teamwork
+  description: |
+    The ability to work effectively with others, including cross-functional
+    teams, and to build strong relationships based on trust and respect. This
+    includes communicating clearly, offering support and feedback, and fostering
+    a collaborative and inclusive team environment.
+
+- id: manager-leadership
+  title: Leadership & Coaching
+  description: |
+    The ability to inspire and motivate others to achieve their best work, and
+    to provide guidance and support for professional growth. This includes
+    setting clear expectations, offering constructive feedback, and creating
+    opportunities for team members to develop their skills and advance their
+    careers.

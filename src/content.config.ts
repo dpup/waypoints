@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 
 import coreRubricSchema from '../content/rubrics/core/_schema';
 import managerRubricSchema from '../content/rubrics/manager/_schema';
@@ -36,4 +36,13 @@ const managerRubrics = defineCollection({
   schema: managerRubricSchema,
 });
 
-export const collections = { docs, guides, appendix, coreRubrics, managerRubrics };
+const capabilities = defineCollection({
+  loader: file('./content/rubrics/capabilities.yaml'),
+  schema: z.object({ 
+    id: z.string(), 
+    title: z.string(), 
+    description: z.string()
+  }),
+});
+
+export const collections = { docs, guides, appendix, coreRubrics, managerRubrics, capabilities };

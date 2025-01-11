@@ -1,31 +1,13 @@
 ---
+import { getCollection } from 'astro:content';
+
 interface Props {
-  category: 'core' | 'manager';
+  track: 'core' | 'manager';
   capability: string;
 }
 
-const { category, capability } = Astro.props;
-
-const labels = {
-  core: {
-    technical: 'Technical Expertise',
-    ownership: 'Project Ownership',
-    impact: 'Business Impact',
-    collaboration: 'Communication & Collaboration',
-    support: 'Mentorship & Support',
-    leadership: 'Leadership & Process Improvement',
-  },
-  manager: {
-    technical: 'Technical Expertise',
-    strategy: 'Strategy',
-    culture: 'Culture',
-    planning: 'Planning & Resource Management',
-    collaboration: 'Collaboration & Teamwork',
-    leadership: 'Leadership & Coaching',
-  },
-};
-
-const label = labels[category]?.[capability] ?? capability;
+const capabilities = await getCollection('capabilities');
+const { track, capability } = Astro.props;
 ---
 
-{label}
+{capabilities.find((c) => c.data.id === `${track}-${capability}`)?.data.title ?? capability}

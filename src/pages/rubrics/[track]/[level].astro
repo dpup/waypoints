@@ -10,16 +10,16 @@ export async function getStaticPaths() {
 
   return [
     ...coreRubrics.map((rubric) => ({
-      params: { category: 'core', level: rubric.data.level.toLowerCase() },
+      params: { track: 'core', level: rubric.data.level.toLowerCase() },
     })),
     ...managerRubrics.map((rubric) => ({
-      params: { category: 'manager', level: rubric.data.level.toLowerCase() },
+      params: { track: 'manager', level: rubric.data.level.toLowerCase() },
     })),
   ];
 }
 
-const { category, level } = Astro.params;
-const { data: rubric } = await getEntry(`${category}Rubrics`, level);
+const { track, level } = Astro.params;
+const { data: rubric } = await getEntry(`${track}Rubrics`, level);
 ---
 
 <Layout title={`${rubric.level} ${rubric.title}`} description={rubric.description}>
@@ -45,7 +45,7 @@ const { data: rubric } = await getEntry(`${category}Rubrics`, level);
           Object.keys(rubric.expectations).map((capability) => (
             <tr>
               <td>
-                <CapabilityLabel category={category} capability={capability} />
+                <CapabilityLabel track={track} capability={capability} />
               </td>
               <td>{rubric.expectations[capability].misses}</td>
               <td>{rubric.expectations[capability].meets}</td>
@@ -58,12 +58,12 @@ const { data: rubric } = await getEntry(`${category}Rubrics`, level);
 
     <h2>
       What makes a good {
-        category === 'core' ? `${rubric.level} engineer` : rubric.title.toLowerCase()
+        track === 'core' ? `${rubric.level} engineer` : rubric.title.toLowerCase()
       }?
     </h2>
     <p>
       When someone talks about a strongly performing {
-        category === 'core' ? `${rubric.level} engineer}` : rubric.title
+        track === 'core' ? `${rubric.level} engineer}` : rubric.title
       }, you may hear that they:
     </p>
     <ul>
