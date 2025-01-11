@@ -52,14 +52,6 @@
 
 # Manager Track
 
-- id: manager-technical
-  title: Technical Expertise
-  description: |
-    The ability to provide technical leadership such that teams make sound
-    technical decisions. This includes understanding the underlying principles
-    of systems and technologies, as well as the ability to learn and apply new
-    tools and technologies effectively.
-
 - id: manager-strategy
   title: Strategy
   description: |
@@ -100,3 +92,11 @@
     setting clear expectations, offering constructive feedback, and creating
     opportunities for team members to develop their skills and advance their
     careers.
+
+- id: manager-technical
+  title: Technical Expertise
+  description: |
+    The ability to provide technical leadership such that teams make sound
+    technical decisions. This includes understanding the underlying principles
+    of systems and technologies, as well as the ability to learn and apply new
+    tools and technologies effectively.

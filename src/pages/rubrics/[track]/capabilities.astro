@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Layout.astro';
+import Content from '@components/Content.astro';
+
+export async function getStaticPaths() {
+  return [{ params: { track: 'core' } }, { params: { track: 'manager' } }];
+}
+
+const { track = '' } = Astro.params;
+const rubrics = await getCollection(`${track}Rubrics`);
+
+const allCapabilities = await getCollection('capabilities');
+const capabilities = allCapabilities.filter((c) => c.data.id.startsWith(track)).map((c) => c.data);
+
+const trackTitle = track.charAt(0).toUpperCase() + track.slice(1);
+---
+
+<Layout title={`${trackTitle} Capabilities`} description={'TODO'}>
+  <Content>
+    <h1>{trackTitle} Capabilities</h1>
+    {
+      capabilities.map((capability) => (
+        <div>
+          <h2>
+            <a name={capability.id.split('-')[1]} />
+            {capability.title}
+          </h2>
+          <p>{capability.description}</p>
+          <dl>
+            {rubrics.map((rubric) => (
+              <>
+                <dt>{rubric.data.level}</dt>
+                <dd>{rubric.data.expectations[capability.id.split('-')[1]].meets}</dd>
+              </>
+            ))}
+          </dl>
+        </div>
+      ))
+    }
+  </Content>
+</Layout>
