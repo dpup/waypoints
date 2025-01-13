@@ -83,12 +83,12 @@
 <script>
   import { isNavOpen } from './stores.js';
 
-  document.getElementById('buttonMenu').addEventListener('click', () => {
+  document.getElementById('buttonMenu')!.addEventListener('click', () => {
     isNavOpen.set(!isNavOpen.get());
   });
 
   isNavOpen.subscribe((open) => {
-    document.getElementById('iconMenuOpen').classList.toggle('hidden', !open);
-    document.getElementById('iconMenuClose').classList.toggle('hidden', open);
+    document.getElementById('iconMenuOpen')!.classList.toggle('hidden', !open);
+    document.getElementById('iconMenuClose')!.classList.toggle('hidden', open);
   });
 </script>
