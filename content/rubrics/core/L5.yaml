@@ -21,12 +21,12 @@ responsibilities:
 expectations:
   technical:
     exceeds: Anticipates technical challenges that could impact company direction. Influences technical strategy across teams, advocating for best practices in architecture and system design.
-    meets: Designs and implements technical solutions that align with long-term strategic goals. Drives technical discussions on system architecture and best practices across teams.
+    meets: Shapes the technical strategy for major product areas, making architectural decisions that enable new business capabilities and improve system reliability at scale.
     misses: Struggles to contribute to technical strategy or to influence system architecture. Requires input from senior engineers to align with long-term goals.
 
   ownership:
-    exceeds: Leads large, high-impact cross-functional projects that align with business goals and drive significant outcomes. Coordinates across teams and departments to ensure successful project execution.
-    meets: Manages and delivers medium to large projects, balancing complexity with clear technical direction. Ensures cross-functional collaboration and manages risks proactively.
+    exceeds: Achieves breakthrough outcomes on strategic initiatives by effectively aligning multiple teams and navigating significant technical uncertainty.
+    meets: Orchestrates long-term initiatives that advance strategic business objectives, involving multiple workstreams and complex stakeholder requirements. Creates alignment across diverse organizational interests.
     misses: Struggles to manage larger or cross-functional projects, often misses critical deadlines, or fails to address risks proactively.
 
   impact:

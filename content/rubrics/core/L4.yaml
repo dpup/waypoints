@@ -20,14 +20,14 @@ responsibilities:
 
 expectations:
   technical:
-    exceeds: Leads technical decisions that impact multiple projects or systems. Advocates for best practices in software architecture, API design, and code quality across teams. Proactively mentors others on technical challenges.
-    meets: Writes high-quality code that influences product and technical direction. Implements best practices in software design, API design, and code quality consistently.
+    exceeds: Creates technical frameworks and patterns that other engineers eagerly adopt, which markedly enhance development efficiency across multiple teams. .
+    meets: Leads technical initiatives that span multiple systems, establishing patterns and frameworks that improve development velocity across teams.
     misses: Requires frequent input on technical decisions or struggles to implement best practices consistently. Produces code that often needs significant revision.
 
   ownership:
-    exceeds: Leads small project teams, provides technical direction, and coordinates cross-functional dependencies. Proactively manages risks and ensures alignment with broader business goals.
-    meets: Manages and delivers small projects or features, ensuring alignment with business and technical goals. Provides technical direction and manages team collaboration effectively.
-    misses: Struggles to lead small projects or teams effectively. Requires significant input from others to coordinate, prioritize, and manage project risks and timelines.
+    exceeds: Consistently delivers complex technical projects ahead of schedule with exceptional quality, while successfully managing competing priorities and resource constraints across multiple teams.
+    meets: Leads quarter-long projects that impact multiple teams, establishing effective project management structures and decision-making processes. Manages competing priorities and resource constraints while maintaining project momentum.
+    misses: Struggles to lead small projects or teams effectively. Reactively responds to issues and requires significant input from others to coordinate, prioritize, and manage project risks and timelines.
 
   impact:
     exceeds: Anticipates future business needs and provides valuable technical insights to influence the product roadmap; suggests innovations that align with company goals.

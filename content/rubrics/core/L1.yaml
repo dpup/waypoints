@@ -19,13 +19,13 @@ responsibilities:
 
 expectations:
   technical:
-    exceeds: Consistently writes clean, maintainable code with minimal guidance; demonstrates strong attention to detail in implementation and code structure.
-    meets: Writes clean, maintainable code with occasional support from others; adheres to team coding standards.
+    exceeds: Takes initiative to independently resolve common coding issues and actively seeks to understand team standards. Consistently delivers reliable code that requires minimal revisions during review, while still operating within a supported environment.
+    meets: Writes functional code that follows basic team conventions and coding standards with support from others.
     misses: Struggles to write clean, maintainable code; frequently needs significant revisions or help in structuring their code.
 
   ownership:
-    exceeds: Takes initiative on small tasks or portions of a project, ensuring timely delivery and clear communication of progress; begins to show accountability for their work.
-    meets: Takes responsibility for small tasks or parts of a project with support; ensures completion and provides regular updates to team members.
+    exceeds: Proactively identifies and addresses potential issues within their assigned tasks while maintaining exceptional documentation and communication standards.
+    meets: Executes assigned tasks, providing clear status updates and escalating blockers appropriately. Actively participates in team planning sessions and delivers commitments on schedule.
     misses: Struggles to take responsibility for assigned tasks; often misses deadlines or fails to communicate progress effectively, requiring frequent check-ins.
 
   impact:

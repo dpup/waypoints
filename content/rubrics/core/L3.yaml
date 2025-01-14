@@ -20,13 +20,13 @@ responsibilities:
 
 expectations:
   technical:
-    exceeds: Architects scalable and maintainable solutions for complex problems, proactively addressing potential issues. Balances technical debt and feature delivery with minimal supervision.
-    meets: Designs scalable, maintainable, and well-architected solutions for complex problems. Delivers well-documented, high-quality code with minimal supervision.
+    exceeds: Takes ownership of complex technical decisions, paying attention to to performance, scalability, and maintenance considerations, and effectively communicates the rationale to stakeholders.
+    meets: Architects modular systems that solve complex technical challenges, making sound decisions about technical tradeoffs and integration points.
     misses: Struggles with architecting scalable solutions and balancing technical debt with feature delivery. Often requires significant oversight from more senior engineers.
 
   ownership:
-    exceeds: Owns and delivers small to medium-sized projects or features, balancing technical debt with feature delivery. Communicates progress and risks to stakeholders consistently.
-    meets: Manages and delivers small to medium-sized projects independently, coordinating with cross-functional teams and ensuring that project goals align with business needs. Proactively resolves issues as they arise.
+    exceeds: Demonstrates outstanding risk management and stakeholder communication that leads to early delivery of initiatives, with solutions that often exceed original requirements while maintaining high quality standards.
+    meets: Drives the delivery of multi-week initiatives requiring coordination across multiple functions. Develops project plans that account for dependencies and constraints, while maintaining clear communication channels with all stakeholders.
     misses: Struggles to manage small to medium-sized projects independently, requires significant oversight, and often fails to balance priorities effectively.
 
   impact:

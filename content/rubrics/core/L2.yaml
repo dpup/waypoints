@@ -19,13 +19,13 @@ responsibilities:
 
 expectations:
   technical:
-    exceeds: Designs intuitive, scalable, and well-documented APIs; produces maintainable code that balances feature implementation with long-term maintainability and clarity. Seeks feedback to improve code quality.
-    meets: Writes efficient, maintainable, and well-tested code with a focus on readability and API design. Understands and applies good software design principles.
+    exceeds: Designs intuitive, scalable, and well-documented APIs that balances feature implementation with long-term maintainability and clarity.
+    meets: Independently implements complete technical solutions with appropriate testing, documentation, and consideration for maintainability.
     misses: Struggles with API design or writing maintainable code. Often requires substantial input from peers or senior engineers to ensure code quality.
 
   ownership:
-    exceeds: Independently manages small to medium-sized tasks or features, ensuring they are delivered on time and meet requirements. Proactively identifies potential issues and suggests solutions.
-    meets: Takes ownership of small tasks or parts of a project, delivering them reliably with minimal guidance. Communicates progress and risks effectively to the team.
+    exceeds: Delivers features ahead of schedule with comprehensive test coverage and documentation that becomes a reference for the team.
+    meets: Manages complete features through the full development lifecycle. Identifies potential risks early and collaborates effectively with immediate team members to resolve issues.
     misses: Requires frequent oversight to complete tasks, struggles to manage time or deliver on commitments, and may not effectively communicate progress or risks.
 
   impact:
