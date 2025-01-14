@@ -151,19 +151,45 @@ resource "aws_cloudfront_function" "handle_request" {
   publish = true
   code    = <<EOF
 function handler(event) {
-
-  // If the request is for a path not a file, tell CF to serve the root
-  // index.html file instead.
-  if (!hasExtension(event.request.uri)) {
-    event.request.uri = '/index.html'
+  var request = event.request;
+  var uri = request.uri;
+  
+  // Redirect to canonical domain.
+  var canonicalHostname = '${var.domain_name}';
+  if (request.headers['host'].value !== canonicalHostname) {
+    var response = {
+      statusCode: 301,
+      statusDescription: 'Moved Permanently',
+      headers: {
+        "location": {
+          "value": "https://" + canonicalHostname + uri
+        }
+      }
+    };
+    return response;
   }
 
-  return event.request;
-}
+  // Remove trailing slashes.
+  if (uri !== '/' && uri.substr(-1) === '/') {
+    return {
+      statusCode: 301,
+      statusDescription: 'Moved Permanently',
+      headers: {
+        "location": {
+          "value": "https://" + canonicalHostname + uri.substr(0, uri.length - 1)
+        }
+      }
+    };
+  }
 
-function hasExtension(url) {
-  var parts = url.split('?')[0].split('/');
-  return parts[parts.length - 1].split('.').length > 1;
+  // Rewrite requests for a folder to the correct index page.
+  if (uri.endsWith('/')) {
+    request.uri += 'index.html';
+  } else if (!uri.includes('.')) {
+    request.uri += '/index.html';
+  }
+
+  return request;
 }
 
 EOF
