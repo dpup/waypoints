@@ -1,25 +1,33 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
+
 import Layout from '@layouts/Layout.astro';
 import Content from '@components/Content.astro';
 import CapabilityLabel from '@components/CapabilityLabel.astro';
 
-export async function getStaticPaths() {
-  const coreRubrics = await getCollection('coreRubrics');
-  const managerRubrics = await getCollection('managerRubrics');
+export const tracks = ['core', 'manager'] as const;
 
-  return [
-    ...coreRubrics.map((rubric) => ({
-      params: { track: 'core', level: rubric.data.level.toLowerCase() },
-    })),
-    ...managerRubrics.map((rubric) => ({
-      params: { track: 'manager', level: rubric.data.level.toLowerCase() },
-    })),
-  ];
+export async function getStaticPaths() {
+  const paths = await Promise.all(
+    tracks.map(async (track) => {
+      const rubrics = await getCollection(`${track}Rubrics`);
+      return rubrics.map((rubric) => ({
+        params: { track, level: rubric.data.level.toLowerCase() },
+      }));
+    }),
+  );
+  return paths.flat();
 }
 
-const { track, level } = Astro.params;
-const { data: rubric } = await getEntry(`${track}Rubrics`, level);
+type Track = (typeof tracks)[number];
+
+interface Params {
+  track: Track;
+  level: string;
+}
+
+const { track, level } = Astro.params as Params;
+const { data: rubric } = await getEntry(`${track}Rubrics`, level)!;
 ---
 
 <Layout title={`${rubric.level} ${rubric.title}`} description={rubric.description}>
@@ -71,7 +79,7 @@ const { data: rubric } = await getEntry(`${track}Rubrics`, level);
     </ul>
 
     {
-      rubric.management && (
+      'management' in rubric && (
         <>
           <h2>
             Managing {rubric.level} {rubric.title}s
