@@ -1,12 +1,224 @@
 ---
 import Content from '@components/Content.astro';
 import Layout from '@layouts/Layout.astro';
+
+// TODO: Build components for Hero and FeatureGrid.
 ---
 
 <Layout title="" description="Open source career development framework for software engineers.">
-  <Content>
-    <h1>Welcome to Waypoints</h1>
-    <p>This site is under active construction and the content is being refined. Check back soon.</p>
-    <p>-- Dan (15 Jan 2025)</p>
-  </Content>
+  {/* Hero */}
+  <section
+    class="flex flex-col max-w-[100ch] mx-auto space-y-6 border-b border-stone-400 py-12 mb-12"
+  >
+    <div class="text-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="size-24 text-stone-400 mx-auto"
+        ><path
+          d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"
+        ></path><circle cx="12" cy="12" r="10"></circle></svg
+      >
+    </div>
+    <h1 class="font-serif text-6xl text-center">Waypoints: Engineering Career Framework</h1>
+    <h2 class="font-serif text-center text-stone-600 text-3xl">
+      A career development framework built by engineers to create consistent, meaningful standards
+      for career progression in software engineering
+    </h2>
+    <div class="flex space-x-6 justify-center pt-6">
+      <a href="/intro" class="bg-stone-700 text-white py-2 px-4 rounded hover:bg-stone-600"
+        >Learn More</a
+      >
+      <a
+        href="https://github.com/dpup/waypoints"
+        class="border border-stone-600 text-stone-600 py-2 px-4 rounded hover:bg-stone-200 hover:border-stone-400"
+        >View on GitHub</a
+      >
+    </div>
+    <div class="max-w-lg p-6 bg-amber-200 text-stone-800 rounded mx-auto">
+      This site is under active construction and the content is still being refined (Dan, 15 Jan
+      2025)
+    </div>
+  </section>
+
+  {/* Why Waypoints feature grid. */}
+  <section class="pb-12 max-w-[100ch] mx-auto border-stone-400 border-b">
+    <h2 class="text-3xl font-serif text-stone-900 mb-12 text-center">Why Waypoints?</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Clear Expectations</h3>
+          <p class="text-stone-600">
+            Detailed definitions of capabilities and expectations at each engineering level, created
+            by engineers who understand the realities of the role.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Defined Career Paths</h3>
+          <p class="text-stone-600">
+            Clear descriptions of both technical and management tracks, helping you understand the
+            requirements for each career direction.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Modern Engineering Focus</h3>
+          <p class="text-stone-600">
+            Reflects contemporary engineering practices, emphasizing both technical excellence and
+            product thinking in role expectations.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Consistent Standards</h3>
+          <p class="text-stone-600">
+            Establishes clear, objective criteria for each level, providing a common language for
+            discussing career progression.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Quick links. */}
+  <section class="py-12 max-w-[100ch] mx-auto border-stone-400 border-b">
+    <h2 class="text-3xl font-serif text-stone-900 mb-12 text-center">Explore Waypoints</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Career Paths</h3>
+          <p class="text-stone-600">
+            Understand the expectations and capabilities needed at each level.
+          </p>
+          <p class="mt-3 flex flex-col space-y-3">
+            <a href="/rubrics/core">Core Track &raquo;</a>
+            <a href="/rubrics/manager">Manager Track &raquo;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="mt-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 text-stone-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Implementation</h3>
+          <p class="text-stone-600">Resources for organizations adopting the framework.</p>
+          <p class="mt-3 flex flex-col space-y-3">
+            <a href="/guides/deploying-waypoints">How to deploy the framework &raquo;</a>
+            <a href="/guide/compensation-process">Suggested compensation process &raquo;</a>
+            <a href="/guide/performance-management">Performance management guide &raquo;</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
