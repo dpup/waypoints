@@ -10,13 +10,13 @@ description: |
   team, looking for ways to improve engineering practices across the organization.
 
 responsibilities:
-- Leads small project teams and provides technical direction
-- Balances technical debt with product delivery needs
-- Influences product roadmap with technical insights and feasibility analysis
-- Implements and advocates for best practices in code quality and architecture
-- Drives adoption of new technologies that improve product delivery or user experience
-- Collaborates effectively with other departments to drive business outcomes
-- Provides valuable input in hiring and team growth decisions
+  - Leads small project teams and provides technical direction
+  - Balances technical debt with product delivery needs
+  - Influences product roadmap with technical insights and feasibility analysis
+  - Implements and advocates for best practices in code quality and architecture
+  - Drives adoption of new technologies that improve product delivery or user experience
+  - Collaborates effectively with other departments to drive business outcomes
+  - Provides valuable input in hiring and team growth decisions
 
 expectations:
   technical:
@@ -50,16 +50,16 @@ expectations:
     misses: Rarely contributes to process improvement or struggles to lead team-wide initiatives. Fails to effectively guide the team in improving workflows and practices.
 
 traits:
-- Lead small project teams, providing technical direction and ensuring alignment with business goals.
-- Drive discussions around code quality, architecture, and best practices in code reviews.
-- Write detailed documentation that not only explains technical decisions but also provides guidance for future development.
-- Provide valuable technical insights in product strategy discussions, influencing roadmap decisions.
-- Mentor junior and mid-level engineers, helping them grow their skills and guiding them through complex challenges.
-- Balance technical debt with product needs, ensuring long-term code health while delivering business value.
-- Take ownership of entire features or projects, coordinating cross-functional teams to ensure successful delivery.
-- Proactively make sure the team operates more efficiently and effectively.
-- Demonstrate strong problem-solving abilities, quickly identifying and resolving issues that affect multiple teams or systems.
-- Communicate complex technical concepts clearly to both technical and non-technical stakeholders, ensuring alignment.
+  - Lead small project teams, providing technical direction and ensuring alignment with business goals.
+  - Drive discussions around code quality, architecture, and best practices in code reviews.
+  - Write detailed documentation that not only explains technical decisions but also provides guidance for future development.
+  - Provide valuable technical insights in product strategy discussions, influencing roadmap decisions.
+  - Mentor junior and mid-level engineers, helping them grow their skills and guiding them through complex challenges.
+  - Balance technical debt with product needs, ensuring long-term code health while delivering business value.
+  - Take ownership of entire features or projects, coordinating cross-functional teams to ensure successful delivery.
+  - Proactively make sure the team operates more efficiently and effectively.
+  - Demonstrate strong problem-solving abilities, quickly identifying and resolving issues that affect multiple teams or systems.
+  - Communicate complex technical concepts clearly to both technical and non-technical stakeholders, ensuring alignment.
 
 management:
   goal: |
@@ -69,33 +69,33 @@ management:
     their ability to drive organizational change and mentor others.
 
   tips:
-  - Position them as technical leaders with real decision-making authority
-  - Include them in strategic planning and roadmap discussions
-  - Create opportunities for cross-team and cross-functional leadership
-  - Trust their technical judgment while helping them understand business context
-  - Support them in developing and executing their technical vision
-  - Help them balance technical leadership with hands-on development
+    - Position them as technical leaders with real decision-making authority
+    - Include them in strategic planning and roadmap discussions
+    - Create opportunities for cross-team and cross-functional leadership
+    - Trust their technical judgment while helping them understand business context
+    - Support them in developing and executing their technical vision
+    - Help them balance technical leadership with hands-on development
 
   areas:
-  - Strategic technical planning and vision setting
-  - Stakeholder management and influence
-  - Technical program management
-  - Team building and leadership
-  - Cross-functional collaboration
-  - Business and product strategy alignment
-  - Technical risk assessment and mitigation
+    - Strategic technical planning and vision setting
+    - Stakeholder management and influence
+    - Technical program management
+    - Team building and leadership
+    - Cross-functional collaboration
+    - Business and product strategy alignment
+    - Technical risk assessment and mitigation
 
   measurement:
-  - Success of initiatives they lead
-  - Adoption of technical practices they champion
-  - Growth and performance of teams they influence
-  - Impact of their architectural decisions
-  - Effectiveness of their cross-functional partnerships
-  - Quality of their strategic technical planning
+    - Success of initiatives they lead
+    - Adoption of technical practices they champion
+    - Growth and performance of teams they influence
+    - Impact of their architectural decisions
+    - Effectiveness of their cross-functional partnerships
+    - Quality of their strategic technical planning
 
   pitfalls:
-  - Limiting their influence to purely technical decisions
-  - Not involving them early enough in strategic discussions
-  - Allowing them to become isolated from hands-on development
-  - Failing to provide enough organizational context
-  - Not supporting their development as leaders
+    - Limiting their influence to purely technical decisions
+    - Not involving them early enough in strategic discussions
+    - Allowing them to become isolated from hands-on development
+    - Failing to provide enough organizational context
+    - Not supporting their development as leaders

@@ -3,13 +3,13 @@ title: Engineering Manager
 description: |
   M3 managers are making the transition from individual contributor to people leader. They're learning to balance coding with coaching, technical decisions with team dynamics. They're the shield and the bridge for their team, protecting them from distractions while connecting them to the broader organization. They're learning to see success through the lens of team achievements rather than personal technical contributions.
 responsibilities:
-- Manages a team of individual contributors, focusing on their growth and performance
-- Collaborates with product managers to define and scope team objectives
-- Ensures team's technical decisions align with product goals and user needs
-- Facilitates effective communication between engineering and other departments
-- Manages team resources and capacity to meet product delivery commitments
-- Conducts regular 1:1s and drives feedback and performance evaluation
-- Contributes to hiring and team composition decisions
+  - Manages a team of individual contributors, focusing on their growth and performance
+  - Collaborates with product managers to define and scope team objectives
+  - Ensures team's technical decisions align with product goals and user needs
+  - Facilitates effective communication between engineering and other departments
+  - Manages team resources and capacity to meet product delivery commitments
+  - Conducts regular 1:1s and drives feedback and performance evaluation
+  - Contributes to hiring and team composition decisions
 
 expectations:
   strategy:
@@ -43,6 +43,6 @@ expectations:
     misses: Struggles to balance technical input with management duties. Provides little technical guidance, leaving the team to make decisions without proper oversight.
 
 traits:
-- placeholder 1
-- placeholder 2
-- placeholder 3
+  - placeholder 1
+  - placeholder 2
+  - placeholder 3

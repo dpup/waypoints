@@ -9,13 +9,13 @@ description: |
   is growing, and they're starting to mentor newcomers on the basics.
 
 responsibilities:
-- Contributes effectively to larger, cross-functional projects
-- Understands and considers user needs when implementing features
-- Writes efficient, well-tested code with proper documentation
-- Participates in code reviews and provides constructive feedback
-- Collaborates with product and design teams to refine feature implementations
-- Understands and applies basic performance optimization techniques
-- Demonstrates growing autonomy in task completion
+  - Contributes effectively to larger, cross-functional projects
+  - Understands and considers user needs when implementing features
+  - Writes efficient, well-tested code with proper documentation
+  - Participates in code reviews and provides constructive feedback
+  - Collaborates with product and design teams to refine feature implementations
+  - Understands and applies basic performance optimization techniques
+  - Demonstrates growing autonomy in task completion
 
 expectations:
   technical:
@@ -49,17 +49,17 @@ expectations:
     misses: Requires guidance to manage tasks and maintain productivity. Rarely contributes to process discussions or suggests ways to improve team or individual workflows.
 
 traits:
-- Take on larger tasks with confidence, ensuring they’re well-tested and documented.
-- Regularly ask for feedback on code reviews and thoughtfully incorporates it to improve their work.
-- Write clear, detailed documentation that’s easy for others to follow, especially on cross-functional projects.
-- Collaborate with product and design teams to refine features, asking smart questions to understand the user impact.
-- Participate actively in team discussions and isn't afraid to offer ideas or raise concerns.
-- Show growing independence, taking on tasks and delivering them with minimal guidance.
-- Follow best practices for version control, keeping branches clean and commits organized.
-- Adapt to team processes quickly, contributing to discussions about improving workflows or tooling.
-- Consistently test their own work thoroughly, ensuring both local and automated tests pass before submitting.
-- Are eager to learn and ask for help when necessary, but show growing confidence in their own decision-making.
-- Meet deadlines consistently and provide regular updates on progress, keeping the team in the loop.
+  - Take on larger tasks with confidence, ensuring they’re well-tested and documented.
+  - Regularly ask for feedback on code reviews and thoughtfully incorporates it to improve their work.
+  - Write clear, detailed documentation that’s easy for others to follow, especially on cross-functional projects.
+  - Collaborate with product and design teams to refine features, asking smart questions to understand the user impact.
+  - Participate actively in team discussions and isn't afraid to offer ideas or raise concerns.
+  - Show growing independence, taking on tasks and delivering them with minimal guidance.
+  - Follow best practices for version control, keeping branches clean and commits organized.
+  - Adapt to team processes quickly, contributing to discussions about improving workflows or tooling.
+  - Consistently test their own work thoroughly, ensuring both local and automated tests pass before submitting.
+  - Are eager to learn and ask for help when necessary, but show growing confidence in their own decision-making.
+  - Meet deadlines consistently and provide regular updates on progress, keeping the team in the loop.
 
 management:
   goal: |
@@ -68,32 +68,32 @@ management:
     pure technical contribution.
 
   tips:
-  - Provide opportunities to own small features end-to-end
-  - Include them in planning and design discussions
-  - Encourage them to mentor L1 engineers while providing guidance on how to mentor effectively
-  - Help them develop relationships with product and design teams
-  - Give them space to make and learn from mistakes
-  - Guide them towards seeing the broader context of technical decisions
+    - Provide opportunities to own small features end-to-end
+    - Include them in planning and design discussions
+    - Encourage them to mentor L1 engineers while providing guidance on how to mentor effectively
+    - Help them develop relationships with product and design teams
+    - Give them space to make and learn from mistakes
+    - Guide them towards seeing the broader context of technical decisions
 
   areas:
-  - System design and architecture considerations
-  - Cross-functional collaboration skills
-  - Technical communication and documentation
-  - Performance optimization and scalability concepts
-  - Project planning and estimation
-  - Balancing technical debt with feature delivery
-  - Code review skills and constructive feedback
+    - System design and architecture considerations
+    - Cross-functional collaboration skills
+    - Technical communication and documentation
+    - Performance optimization and scalability concepts
+    - Project planning and estimation
+    - Balancing technical debt with feature delivery
+    - Code review skills and constructive feedback
 
   measurement:
-  - Look for growing ownership of features and technical decisions
-  - Monitor the quality of their mentoring and code reviews
-  - Track their ability to identify and solve problems independently
-  - Assess their contributions to team discussions and planning
-  - Evaluate their understanding of trade-offs in technical decisions
+    - Look for growing ownership of features and technical decisions
+    - Monitor the quality of their mentoring and code reviews
+    - Track their ability to identify and solve problems independently
+    - Assess their contributions to team discussions and planning
+    - Evaluate their understanding of trade-offs in technical decisions
 
   pitfalls:
-  - Providing too much direction on tasks they should figure out independently
-  - Not giving enough exposure to business and product context
-  - Focusing solely on technical growth while neglecting leadership skills
-  - Missing opportunities for them to mentor others
-  - Not challenging them with complex enough problems
+    - Providing too much direction on tasks they should figure out independently
+    - Not giving enough exposure to business and product context
+    - Focusing solely on technical growth while neglecting leadership skills
+    - Missing opportunities for them to mentor others
+    - Not challenging them with complex enough problems

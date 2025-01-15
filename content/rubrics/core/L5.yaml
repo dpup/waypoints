@@ -10,13 +10,13 @@ description: |
   leaders, helping to scale their impact across the organization.
 
 responsibilities:
-- Leads large, high-priority, cross-functional strategic projects
-- Drives technical decisions that significantly impact company direction and growth
-- Develops technical strategies aligned with long-term product vision
-- Identifies and mitigates technical risks that could affect product success
-- Influences company-wide engineering standards and practices
-- Mentors senior engineers and helps develop technical leadership
-- Represents the engineering perspective in high-level product strategy discussions
+  - Leads large, high-priority, cross-functional strategic projects
+  - Drives technical decisions that significantly impact company direction and growth
+  - Develops technical strategies aligned with long-term product vision
+  - Identifies and mitigates technical risks that could affect product success
+  - Influences company-wide engineering standards and practices
+  - Mentors senior engineers and helps develop technical leadership
+  - Represents the engineering perspective in high-level product strategy discussions
 
 expectations:
   technical:
@@ -50,15 +50,15 @@ expectations:
     misses: Limited impact on cross-team process improvements. Struggles to align best practices across teams or to lead meaningful process changes at a broader organizational level.
 
 traits:
-- Lead large, cross-functional projects that have a significant impact on business outcomes, aligning technical decisions with company strategy.
-- Develop technical strategies and write documentation that guides long-term technical decisions and system architecture.
-- Work closely with product and business teams to ensure that technical insights influence key strategic decisions.
-- Mentor other engineers, helping them take on leadership roles and grow their technical and non-technical skills.
-- Identify and address long-term technical debt, ensuring the system can scale with future needs.
-- Drive the adoption of new technologies that improve efficiency, reliability, and the overall user experience.
-- Take a leadership role in process improvements that span multiple teams or departments, driving alignment and efficiency.
-- Anticipate and mitigate technical risks before they become problems, ensuring smooth project delivery.
-- Serve as a key communicator between engineering and executive teams, translating technical goals into business impact.
+  - Lead large, cross-functional projects that have a significant impact on business outcomes, aligning technical decisions with company strategy.
+  - Develop technical strategies and write documentation that guides long-term technical decisions and system architecture.
+  - Work closely with product and business teams to ensure that technical insights influence key strategic decisions.
+  - Mentor other engineers, helping them take on leadership roles and grow their technical and non-technical skills.
+  - Identify and address long-term technical debt, ensuring the system can scale with future needs.
+  - Drive the adoption of new technologies that improve efficiency, reliability, and the overall user experience.
+  - Take a leadership role in process improvements that span multiple teams or departments, driving alignment and efficiency.
+  - Anticipate and mitigate technical risks before they become problems, ensuring smooth project delivery.
+  - Serve as a key communicator between engineering and executive teams, translating technical goals into business impact.
 
 management:
   goal: |
@@ -70,34 +70,34 @@ management:
     other’s specialization and value.
 
   tips:
-  - Partner with them as a strategic peer rather than a traditional manager
-  - Create visibility to company-wide challenges and opportunities
-  - Facilitate connections with key stakeholders across the organization
-  - Support their technical vision while helping align it with business strategy
-  - Shield them from organizational noise while keeping them informed of crucial context
-  - Help them navigate organizational politics and influence effectively
+    - Partner with them as a strategic peer rather than a traditional manager
+    - Create visibility to company-wide challenges and opportunities
+    - Facilitate connections with key stakeholders across the organization
+    - Support their technical vision while helping align it with business strategy
+    - Shield them from organizational noise while keeping them informed of crucial context
+    - Help them navigate organizational politics and influence effectively
 
   areas:
-  - Technical strategy and long-term vision
-  - Organizational influence and change management
-  - Executive communication and stakeholder management
-  - Technical leadership development
-  - Cross-organizational program management
-  - Industry trends and technological innovation
-  - Enterprise architecture and system evolution
+    - Technical strategy and long-term vision
+    - Organizational influence and change management
+    - Executive communication and stakeholder management
+    - Technical leadership development
+    - Cross-organizational program management
+    - Industry trends and technological innovation
+    - Enterprise architecture and system evolution
 
   measurement:
-  - Long-term impact of technical decisions
-  - Success of major technical initiatives and velocity of value delivery
-  - Growth of technical leadership across team
-  - Adoption of technical standards and practices
-  - Quality of strategic technical planning
-  - Effectiveness in influencing company direction
-  - Development of other technical leaders
+    - Long-term impact of technical decisions
+    - Success of major technical initiatives and velocity of value delivery
+    - Growth of technical leadership across team
+    - Adoption of technical standards and practices
+    - Quality of strategic technical planning
+    - Effectiveness in influencing company direction
+    - Development of other technical leaders
 
   pitfalls:
-  - Pulling them too far from technical work into pure management
-  - Not providing enough organizational context for decision-making
-  - Allowing them to become isolated from day-to-day engineering realities
-  - Failing to create appropriate platforms for their influence
-  - Not protecting their time for strategic thinking and planning
+    - Pulling them too far from technical work into pure management
+    - Not providing enough organizational context for decision-making
+    - Allowing them to become isolated from day-to-day engineering realities
+    - Failing to create appropriate platforms for their influence
+    - Not protecting their time for strategic thinking and planning
