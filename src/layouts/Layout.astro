@@ -14,7 +14,11 @@ const { title, description, canonicalURL } = Astro.props;
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
     <title>
-      {title ? title + ' | Waypoints' : 'Waypoints | Career Development for Software Engineers'}
+      {
+        title
+          ? title + ' | Waypoints'
+          : 'Waypoints | Open Source Career Development for Software Engineers'
+      }
     </title>
 
     <link
