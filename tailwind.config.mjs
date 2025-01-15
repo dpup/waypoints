@@ -48,7 +48,7 @@ export default {
             // Base font settings
             fontSize: '1rem',
             fontFamily: theme('fontFamily.serif').join(', '),
-            fontWeight: '300',
+            fontWeight: '400',
             maxWidth: '100ch', // add required value here
 
             // Heading styles
