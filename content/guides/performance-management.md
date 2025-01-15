@@ -9,7 +9,7 @@ Traditional performance reviews are often used to solve three key problems: tale
 
 Our recommendation is to split the performance review process into two distinct tracks:
 
-1. **Talent Mapping and Leveling**: Managers and skip-level managers are responsible for assessing employee performance, identifying top talent and development needs, and making decisions around compensation and promotions. This process should be grounded in the role expectations from the leveling framework. \
+1. **Talent Mapping and Leveling**: Managers and skip-level managers are responsible for assessing employee performance, identifying top talent and development needs, and making decisions around compensation and promotions. This process should be grounded in the role expectations from the leveling framework.
 
 2. **Expectation Setting and Feedback**: A separate 360-degree feedback process, focused solely on providing employees with constructive, actionable insights to support their personal and professional growth. This feedback is not directly tied to compensation or promotion decisions however it may be used as one of the inputs in the leveling process.
 
