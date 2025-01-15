@@ -32,9 +32,10 @@ Where `<type>` is one of the following:
 | `tweak`    | Fixes typos, grammatical errors, or formatting issues.        | Patch (x.x.PATCH) |
 | `content`  | Adds minor clarifications or adjustments to existing content. | Minor (x.MINOR.x) |
 | `content!` | Introduces significant content changes or new sections.       | Major (MAJOR.x.x) |
-| `site`     | Changes to site, styles, or appearance.                       | No impact         |
-| `tooling`  | Changes to build scripts, CI/CD, or non-content dependencies. | No impact         |
 | `meta`     | Updates to documentation metadata (e.g., tags, author info).  | No impact         |
+| `site`     | Changes to site, styles, or appearance.                       | No impact         |
+| `tooling`  | Changes to build scripts, CI/CD, or infrastructure.           | No impact         |
+| `chore`    | Run autoformat, update dependencies, etc.                     | No impact         |
 
 ### Commit Message Examples
 
