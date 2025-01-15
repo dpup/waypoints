@@ -1,0 +1,52 @@
+name: Create Version tags
+on:
+  push:
+    branches:
+      - main
+jobs:
+  version-tag:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for proper version calculation
+
+      - name: Get latest version tag
+        id: get_latest_tag
+        run: |
+          git fetch --tags
+          LATEST_TAG=$(git tag -l 'v*' --sort=-v:refname | head -n 1)
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No existing tags found, starting with v0.0.0"
+            echo "latest_tag=v0.0.0" >> $GITHUB_OUTPUT
+          else
+            echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create version tag
+        id: create_tag
+        env:
+          LATEST_TAG: ${{ steps.get_latest_tag.outputs.latest_tag }}
+        run: node .github/scripts/calculate-version.js >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          NEW_VERSION=${{ steps.create_tag.outputs.new_version }}
+          LATEST_TAG=${{ steps.get_latest_tag.outputs.latest_tag }}
+
+          if [ "$NEW_VERSION" != "$LATEST_TAG" ]; then
+            git tag $NEW_VERSION
+            git push origin $NEW_VERSION
+            echo "Created and pushed new tag: $NEW_VERSION"
+          else
+            echo "No version increment needed"
+          fi
