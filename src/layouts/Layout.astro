@@ -27,11 +27,11 @@ const { title, description, canonicalURL } = Astro.props;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <PostHog />
   </head>
-  <body class="h-full w-full">
+  <body class="h-full w-full text-stone-900 bg-stone-50">
     <Header />
-    <div class="flex min-h-screen bg-slate-50/80">
+    <div class="flex min-h-screen bg-stone-50/80">
       <Navigation />
-      <main class="flex-1 flex flex-col min-w-0">
+      <main class="flex-1 flex flex-col min-w-0 bg-gradient-to-br from-stone-50 to-white">
         <div class="px-4 py-8 sm:px-6 lg:px-8">
           <slot />
         </div>

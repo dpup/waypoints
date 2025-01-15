@@ -32,7 +32,7 @@ const trackTitle = track.charAt(0).toUpperCase() + track.slice(1);
     <h1>{trackTitle} Capabilities</h1>
     {
       capabilities.map((capability) => (
-        <div>
+        <div class="border-b border-stone-200 pb-8">
           <h2>
             <a name={capability.id.split('-')[1]} />
             {capability.title}

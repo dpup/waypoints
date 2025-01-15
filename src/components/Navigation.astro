@@ -85,7 +85,9 @@ const nav = [
   id="sidebar"
   class="fixed top-0 left-0 z-20 w-72 h-screen lg:sticky -translate-x-full lg:translate-x-0 transition-transform duration-200 ease-in-out"
 >
-  <div class="flex flex-col h-full bg-white/80 backdrop-blur-sm border-r border-slate-200">
+  <div
+    class="flex flex-col h-full bg-gradient-to-l from-stone-100 to-white backdrop-blur-sm border-r border-stone-200"
+  >
     <div class="h-16 flex-shrink-0 lg:hidden">
       {/* Sidebar header space */}
     </div>
@@ -93,15 +95,15 @@ const nav = [
       {
         nav.map((item) =>
           item.children ? (
-            <div class="py-2 border-t border-slate-200">
-              <span class="block px-3 py-2 text-xs font-semibold tracking-wide text-slate-900 uppercase">
+            <div class="py-2 border-t border-stone-200">
+              <span class="block px-3 py-2 text-xs font-semibold tracking-wide text-stone-900 uppercase">
                 {item.title}
               </span>
               <div class="mt-1 space-y-1">
                 {item.children.map((child) => (
                   <a
                     href={child.href}
-                    class="block px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+                    class="block px-3 py-2 text-sm text-stone-600 rounded-lg hover:bg-stone-200 hover:text-stone-900"
                   >
                     {child.title}
                   </a>
@@ -112,7 +114,7 @@ const nav = [
             <div class="">
               <a
                 href={item.href}
-                class="block px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+                class="block px-3 py-2 text-sm text-stone-600 rounded-lg hover:bg-stone-200 hover:text-stone-900"
               >
                 {item.title}
               </a>
