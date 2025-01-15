@@ -6,7 +6,7 @@ export default {
     extend: {
       fontFamily: {
         serif: [
-          'Crimson Pro',
+          'EB Garamond',
           'Athelas',
           'Constantia',
           'Georgia',
@@ -47,13 +47,13 @@ export default {
 
             // Base font settings
             fontSize: '1rem',
-            fontFamily: theme('fontFamily.serif'),
+            fontFamily: theme('fontFamily.serif').join(', '),
             fontWeight: '300',
             maxWidth: '100ch', // add required value here
 
             // Heading styles
             h1: {
-              fontFamily: theme('fontFamily.serif'),
+              fontFamily: theme('fontFamily.serif').join(', '),
               fontWeight: '400',
               fontSize: '2.5rem',
               lineHeight: '1.2',
@@ -61,7 +61,7 @@ export default {
               textAlign: 'center',
             },
             h2: {
-              fontFamily: theme('fontFamily.serif'),
+              fontFamily: theme('fontFamily.serif').join(', '),
               fontWeight: '400',
               fontSize: '1.875rem',
               lineHeight: '1.3',
@@ -69,7 +69,7 @@ export default {
               marginBottom: '1.25rem',
             },
             h3: {
-              fontFamily: theme('fontFamily.serif'),
+              fontFamily: theme('fontFamily.serif').join(', '),
               fontWeight: '400',
               fontSize: '1.5rem',
               lineHeight: '1.4',
@@ -79,7 +79,7 @@ export default {
 
             // Paragraph styles
             p: {
-              fontFamily: theme('fontFamily.sans'),
+              fontFamily: theme('fontFamily.sans').join(', '),
               marginTop: '1.25rem',
               marginBottom: '1.25rem',
               lineHeight: '1.75',
@@ -105,7 +105,7 @@ export default {
                 marginTop: '0.5rem',
                 marginBottom: '0.5rem',
                 paddingLeft: '0.75rem',
-                fontFamily: theme('fontFamily.sans'),
+                fontFamily: theme('fontFamily.sans').join(', '),
               },
               'li::marker': {
                 color: theme('colors.stone.400'),
@@ -118,7 +118,7 @@ export default {
                 marginTop: '0.5rem',
                 marginBottom: '1.25rem',
                 paddingLeft: '0.75rem',
-                fontFamily: theme('fontFamily.sans'),
+                fontFamily: theme('fontFamily.sans').join(', '),
               },
               'li::marker': {
                 color: theme('colors.stone.400'),
@@ -135,7 +135,7 @@ export default {
               alignItems: 'start',
             },
             dt: {
-              fontFamily: theme('fontFamily.serif'),
+              fontFamily: theme('fontFamily.serif').join(', '),
               color: theme('colors.stone.900'),
               fontSize: '1.1em',
               fontWeight: '400',
@@ -144,7 +144,7 @@ export default {
             dd: {
               marginLeft: '0',
               marginTop: '8px',
-              fontFamily: theme('fontFamily.sans'),
+              fontFamily: theme('fontFamily.sans').join(', '),
               color: theme('colors.stone.700'),
             },
 
@@ -180,7 +180,7 @@ export default {
                 fontWeight: '600',
                 paddingBottom: '0.75rem',
                 fontSize: theme('fontSize.sm'),
-                fontFamily: theme('fontFamily.sans'),
+                fontFamily: theme('fontFamily.sans').join(', '),
               },
             },
             tbody: {
@@ -189,7 +189,7 @@ export default {
               },
               td: {
                 fontSize: theme('fontSize.sm'),
-                fontFamily: theme('fontFamily.sans'),
+                fontFamily: theme('fontFamily.sans').join(', '),
               },
             },
 
