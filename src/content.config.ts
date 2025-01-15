@@ -38,10 +38,10 @@ const managerRubrics = defineCollection({
 
 const capabilities = defineCollection({
   loader: file('./content/rubrics/capabilities.yaml'),
-  schema: z.object({ 
-    id: z.string(), 
-    title: z.string(), 
-    description: z.string()
+  schema: z.object({
+    id: z.string(),
+    title: z.string(),
+    description: z.string(),
   }),
 });
 

@@ -11,18 +11,20 @@ let hasError = false;
 
 const dirs = ['core', 'manager'];
 
-await Promise.all(dirs.map(async (dir) => {
-  const {default: schema} = await import('../content/rubrics/' + dir + '/_schema.js');
-  const directoryPath = join(__dirname, '../content/rubrics/', dir);
-  const yamlFiles = getYamlFiles(directoryPath);
+await Promise.all(
+  dirs.map(async (dir) => {
+    const { default: schema } = await import('../content/rubrics/' + dir + '/_schema.js');
+    const directoryPath = join(__dirname, '../content/rubrics/', dir);
+    const yamlFiles = getYamlFiles(directoryPath);
 
-  yamlFiles.forEach((file) => {
-    const filePath = join(directoryPath, file);
-    if (!validateYamlFile(filePath, schema)) {
-      hasError = true;
-    }
-  });
-}));
+    yamlFiles.forEach((file) => {
+      const filePath = join(directoryPath, file);
+      if (!validateYamlFile(filePath, schema)) {
+        hasError = true;
+      }
+    });
+  }),
+);
 
 if (hasError) {
   process.exit(1);
