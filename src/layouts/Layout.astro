@@ -2,6 +2,7 @@
 import '@styles/base.css';
 import PostHog from '@components/PostHog.astro';
 import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
 import Navigation from '@components/Navigation.astro';
 
 const { title, description, canonicalURL } = Astro.props;
@@ -40,6 +41,7 @@ const { title, description, canonicalURL } = Astro.props;
           <div class="px-4 py-8 sm:px-6 lg:px-8">
             <slot />
           </div>
+          <Footer />
         </main>
       </div>
     </div>
