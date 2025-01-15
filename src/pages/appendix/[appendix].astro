@@ -1,0 +1,25 @@
+---
+import Content from '@components/Content.astro';
+import Layout from '@layouts/Layout.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const appendix = await getCollection('appendix');
+  return appendix.map((appendix) => ({ params: { appendix: appendix.id } }));
+}
+
+interface Params {
+  appendix: string;
+}
+
+const { appendix } = Astro.params as Params;
+
+const entry = await getEntry('appendix', appendix)!;
+const { Content: MarkdownContent } = await render(entry);
+---
+
+<Layout title={entry.data.title} description="TODO">
+  <Content>
+    <MarkdownContent />
+  </Content>
+</Layout>
