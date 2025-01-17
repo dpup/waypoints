@@ -22,11 +22,11 @@ Understanding the patterns that emerge from these models helps explain why our f
 
 Engineers develop across multiple dimensions simultaneously, like runners who must build both cardiovascular capacity and muscular strength. Technical skills progress from following patterns to intuitive mastery. Ways of understanding problems evolve from concrete to nuanced and contextual. Scope of impact expands from individual contribution to organizational influence.
 
-This multi-dimensional growth creates compounding effects. An engineer who better understands organizational context makes better technical decisions. Better technical decisions create more opportunities for impact. More impact creates opportunities for broader organizational understanding. These reinforcing loops drive growth.
+This multi-dimensional growth creates compounding effects. An engineer who better understands organizational context makes better technical decisions. Better technical decisions create more opportunities for impact. More impact creates opportunities for broader organizational understanding. These reinforcing loops lead to greater impact than if you only became a better and better coder.
 
 ## Natural Progression Patterns
 
-The most effective progression frameworks work with, rather than against, natural patterns of growth.
+The most effective progression frameworks work with, rather than against, the natural patterns of growth surfaced by the developmental models listed above.
 
 Expanding scope happens naturally as engineers develop deeper understanding of their work's context. This expansion flows from individual contributions to team impact to organizational influence. The framework creates space for this expansion while ensuring engineers maintain connection to hands-on work.
 
