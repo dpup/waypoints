@@ -1,6 +1,6 @@
 ---
 title: Company Size & Manager Levels
-order: 2
+order: 3
 ---
 
 # Company Size & Manager Levels

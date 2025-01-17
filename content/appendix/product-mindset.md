@@ -1,6 +1,6 @@
 ---
 title: The Product Mindset
-order: 1
+order: 2
 ---
 
 # The Product Mindset
