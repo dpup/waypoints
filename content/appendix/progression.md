@@ -1,5 +1,6 @@
 ---
 title: Philosophy of Progression
+description: A look at how formal development models have influenced the Waypoints career framework.
 order: 1
 ---
 

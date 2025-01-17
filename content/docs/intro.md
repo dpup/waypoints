@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: A high-level overview of the Waypoints engineering career framework.
 order: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Credits & Acknowledgements
+description: An overview of the project authors, contributors, and links to inspiration.
 order: 4
 ---
 

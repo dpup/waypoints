@@ -8,6 +8,7 @@ import managerRubricSchema from '../content/rubrics/manager/_schema';
 // Default schema for markdown files.
 const mdSchema = z.object({
   title: z.string(),
+  description: z.string(),
   order: z.number(),
 });
 

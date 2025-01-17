@@ -1,5 +1,6 @@
 ---
 title: Compensation Process
+description: A default process which can complement the Waypoints framework.
 order: 2
 ---
 

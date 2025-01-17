@@ -1,5 +1,6 @@
 ---
 title: General Principles
+description: A set of general principles that we believe apply to all engineers, regardless of level and specialization.
 order: 2
 ---
 

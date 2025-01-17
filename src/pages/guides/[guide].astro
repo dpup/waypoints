@@ -18,7 +18,7 @@ const entry = await getEntry('guides', guide)!;
 const { Content: MarkdownContent } = await render(entry);
 ---
 
-<Layout title={entry.data.title} description="TODO">
+<Layout title={entry.data.title} description={entry.data.description}>
   <Content>
     <MarkdownContent />
   </Content>

@@ -1,5 +1,6 @@
 ---
 title: Deploying Waypoints
+description: A guide to deploying a new career development framework, whether or not you already have one.
 order: 3
 ---
 

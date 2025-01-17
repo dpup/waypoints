@@ -1,5 +1,6 @@
 ---
 title: Performance Management
+description: An alternative way of thinking about performance management, by separating leveling from feedback.
 order: 1
 ---
 
