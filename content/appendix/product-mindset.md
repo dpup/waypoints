@@ -1,5 +1,6 @@
 ---
 title: The Product Mindset
+description: Modern engineers should work to understand needs, focus on outcomes, iterate based on feedback, and be continuously improving.
 order: 2
 ---
 
