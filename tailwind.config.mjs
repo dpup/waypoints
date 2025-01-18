@@ -57,7 +57,7 @@ export default {
               fontWeight: '400',
               fontSize: '2.5rem',
               lineHeight: '1.2',
-              marginBottom: '2rem',
+              paddingTop: '2rem',
               textAlign: 'center',
             },
             h2: {
@@ -65,24 +65,17 @@ export default {
               fontWeight: '400',
               fontSize: '1.875rem',
               lineHeight: '1.3',
-              marginTop: '2.5rem',
-              marginBottom: '1.25rem',
             },
             h3: {
               fontFamily: theme('fontFamily.serif').join(', '),
               fontWeight: '400',
               fontSize: '1.5rem',
               lineHeight: '1.4',
-              marginTop: '2rem',
-              marginBottom: '1rem',
             },
 
             // Paragraph styles
             p: {
               fontFamily: theme('fontFamily.sans').join(', '),
-              marginTop: '1.25rem',
-              marginBottom: '1.25rem',
-              lineHeight: '1.75',
             },
 
             // Link styles
@@ -99,12 +92,7 @@ export default {
 
             // List styles
             ul: {
-              marginTop: '1.25rem',
-              marginBottom: '1.25rem',
               li: {
-                marginTop: '0.5rem',
-                marginBottom: '0.5rem',
-                paddingLeft: '0.75rem',
                 fontFamily: theme('fontFamily.sans').join(', '),
               },
               'li::marker': {
@@ -112,12 +100,7 @@ export default {
               },
             },
             ol: {
-              marginTop: '1.25rem',
-              marginBottom: '1.25rem',
               li: {
-                marginTop: '0.5rem',
-                marginBottom: '1.25rem',
-                paddingLeft: '0.75rem',
                 fontFamily: theme('fontFamily.sans').join(', '),
               },
               'li::marker': {
@@ -139,11 +122,11 @@ export default {
               color: theme('colors.stone.900'),
               fontSize: '1.1em',
               fontWeight: '400',
-              marginTop: '8px',
+              marginTop: '8px !important',
             },
             dd: {
               marginLeft: '0',
-              marginTop: '8px',
+              marginTop: '8px !important',
               fontFamily: theme('fontFamily.sans').join(', '),
               color: theme('colors.stone.700'),
             },
@@ -153,9 +136,6 @@ export default {
               fontStyle: 'italic',
               borderLeftWidth: '2px',
               borderLeftColor: theme('colors.stone.200'),
-              marginTop: '2rem',
-              marginBottom: '2rem',
-              paddingLeft: '1.5rem',
               quotes: '"\\201C""\\201D""\\2018""\\2019"',
             },
 
