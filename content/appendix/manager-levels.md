@@ -12,34 +12,38 @@ This addendum provides guidance on how manager levels typically map to roles in 
 
 - M3 (Engineering Manager): Often titled "Lead Engineer" or "Tech Lead"
   - May still have significant individual contributor responsibilities
-  - Likely reports directly to CTO or CEO
-- M4 (Senior Engineering Manager): Typically the "Head of Engineering" or "VP of Engineering"
-  - Often the most senior technical role, may be equivalent to non-founding CTO
-  - Responsible for all engineering functions
-- M5/M6 (Director/Senior Director): Usually not present
-  - In rare cases, might be brought in as CTO for rapid scaling
+  - May report to VP Engineering, CTO, or CEO depending on structure
+- M4 (Senior Engineering Manager): Rarely present, may be "Head of Engineering" for a non-technical founding team
+  - Role usually combined with M3 or M5 responsibilities
+  - May also emerge as company approaches 50 employees to support scaling
+- M5 (Director): Usually the "VP of Engineering" or "Head of Engineering"
+  - Often the most senior non-founder technical leader, may be brought in where there is no technical founder, or where founding CTO lacks leadership abilities
+- M6 (Senior Director): Extremely rare, typically only in rapid-growth companies
+  - When present, often brought in as seasoned technical executive, may be brought in as non-founding CTO
 
 ## Small Company (51-200 employees)
 
 - M3 (Engineering Manager): "Engineering Manager" or "Team Lead"
-  - Manages a small team or a specific product area
+  - Manages a focused product or platform team
 - M4 (Senior Engineering Manager): "Senior Engineering Manager" or "Head of [Specific Area]"
-  - Might lead backend, frontend, or a major product line
-- M5 (Director): "Director of Engineering" or "Head of Engineering"
-  - Often the top engineering role, reporting to CTO or CEO
-- M6 (Senior Director): Typically not present
-  - Might be brought in as CTO or VP Engineering for companies planning rapid growth
+  - Might lead backend, frontend, Data, or a major product line
+- M5 (Director): Usually the "VP of Engineering" or "Head of Engineering"
+  - Leads major technical areas or initiatives
+- M6 (Senior Director): Non-founding CTO or CPTO
+  - Still rare at this size unless technical complexity is very high
+  - Focuses on external representation and strategic partnerships
 
 ## Medium Company (201-1000 employees)
 
 - M3 (Engineering Manager): "Engineering Manager"
   - Manages a team within a specific department or product area
+  - Clear focus on people management and team delivery, limited individual contribution
 - M4 (Senior Engineering Manager): "Senior Engineering Manager" or "Group Manager"
-  - Might manage multiple teams or a significant product area
+  - Manages multiple teams or significant product area
 - M5 (Director): "Director of Engineering" for a major area
-  - E.g., "Director of Frontend Engineering" or "Director of Platform Engineering"
+  - Leads major product line or platform, providing strategic technical leadership
 - M6 (Senior Director): "Senior Director of Engineering" or "VP of Engineering"
-  - Might be the top engineering role in smaller medium-sized companies
+  - Multiple VPs may be present, wide strategic scope and autonomy
 
 ## Large Company (1000+ employees)
 
@@ -49,20 +53,12 @@ This addendum provides guidance on how manager levels typically map to roles in 
   - Manages larger teams or multiple smaller teams
 - M5 (Director): "Director of Engineering" for a specific domain
   - E.g., "Director of Mobile Engineering" or "Director of Data Infrastructure"
-- M6 (Senior Director): "Senior Director of Engineering" for a major division
+- M6 (Senior Director): "Senior Director of Engineering" for a major division or geography
   - E.g., "Senior Director of Consumer Products Engineering"
 
 ## Enterprise (10,000+ employees)
 
-- M3 (Engineering Manager): "Engineering Manager" or "Senior Team Lead"
-  - Manages a team within a specific product, platform, or department
-- M4 (Senior Engineering Manager): "Senior Engineering Manager" or "Group Manager"
-  - Manages multiple teams or a department within a larger division
-- M5 (Director): "Director of Engineering" for a significant area
-  - Might be responsible for an entire product line or major platform
-- M6 (Senior Director): "Senior Director of Engineering"
-  - Often responsible for multiple products or a major division
-  - In some cases, might be equivalent to a C-level position in a smaller company
+The structure mirrors large companies but with additional layers and more specialized roles. Executive technical leadership typically involves multiple VPs and technical executives operating as a leadership team.
 
 ## Key Considerations
 
