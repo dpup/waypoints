@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, envField } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import mdx from '@astrojs/mdx';
@@ -13,6 +13,11 @@ export default defineConfig({
   vite: {
     optimizeDeps: {
       exclude: ['sharp'],
+    },
+  },
+  env: {
+    schema: {
+      POSTHOG_API_KEY: envField.string({ context: 'client', access: 'public', optional: true }),
     },
   },
   redirects: {},

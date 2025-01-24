@@ -1,8 +1,8 @@
 ---
-
+import { POSTHOG_API_KEY } from 'astro:env/client';
 ---
 
-<script is:inline>
+<script is:inline define:vars={{ POSTHOG_API_KEY }}>
   !(function (t, e) {
     var o, n, p, r;
     e.__SV ||
@@ -46,8 +46,7 @@
       }),
       (e.__SV = 1));
   })(document, window.posthog || []);
-  posthog.init('TODO', {
-    // TODO: replace with actual key
+  posthog.init(POSTHOG_API_KEY, {
     api_host: 'https://us.i.posthog.com',
     person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
   });
