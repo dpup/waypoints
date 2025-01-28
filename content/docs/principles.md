@@ -27,7 +27,7 @@ Therefore, regardless of level, specialization, or focus, all engineers should b
 
 The expression of these principles naturally evolves throughout an engineer's career.
 
-Early-career engineers focus primarily on building technical excellence and mastering foundational engineering practices. During this stage, the emphasis is on writing quality code, understanding system architecture, and developing strong collaborative skills within engineering teams. While technical mastery is the primary focus, engineers at this level should begin developing awareness of how their work impacts users and contributes to business goals.
+Early-career engineers focus primarily on building technical excellence and mastering foundational engineering practices. During this stage, the emphasis is on writing quality code, understanding system architecture, and developing strong collaborative skills. While technical mastery is the primary focus, engineers at this level should begin developing awareness of how their work impacts users and contributes to business goals.
 
 As engineers progress to mid-career roles, they start taking on broader technical leadership responsibilities while maintaining their hands-on expertise. They lead technical initiatives with consideration for both immediate implementation needs and longer-term maintainability. At this stage, engineers begin actively balancing technical decisions with business and user needs, while also driving improvements in code quality and development processes. They take on mentorship responsibilities, helping early-career engineers develop their technical skills and understanding of engineering principles.
 
