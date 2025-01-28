@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 const docs = await getCollection('docs');
 const guides = await getCollection('guides');
 const appendix = await getCollection('appendix');
-const coreRubrics = await getCollection('coreRubrics');
+const icRubrics = await getCollection('icRubrics');
 const managerRubrics = await getCollection('managerRubrics');
 
 const orderSorter = (a, b) => a.data.order - b.data.order;
@@ -13,7 +13,7 @@ const levelSorter = (a, b) => (a.data.level > b.data.level ? 1 : -1);
 docs.sort(orderSorter);
 guides.sort(orderSorter);
 appendix.sort(orderSorter);
-coreRubrics.sort(levelSorter);
+icRubrics.sort(levelSorter);
 managerRubrics.sort(levelSorter);
 
 const nav = [
@@ -27,19 +27,19 @@ const nav = [
   })),
 
   {
-    title: 'Core Track',
+    title: 'IC Track',
     children: [
       {
         title: 'Overview',
-        href: '/rubrics/core',
+        href: '/rubrics/ic',
       },
       {
         title: 'Capabilities',
-        href: '/rubrics/core/capabilities',
+        href: '/rubrics/ic/capabilities',
       },
-      ...coreRubrics.map((rubric) => ({
+      ...icRubrics.map((rubric) => ({
         title: `${rubric.data.level} ${rubric.data.title}`,
-        href: `/rubrics/core/${rubric.data.level.toLowerCase()}`,
+        href: `/rubrics/ic/${rubric.data.level.toLowerCase()}`,
       })),
     ],
   },

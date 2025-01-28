@@ -5,7 +5,7 @@ import Layout from '@layouts/Layout.astro';
 import Content from '@components/Content.astro';
 import CapabilityLabel from '@components/CapabilityLabel.astro';
 
-export const tracks = ['core', 'manager'] as const;
+export const tracks = ['ic', 'manager'] as const;
 
 export async function getStaticPaths() {
   const paths = await Promise.all(
@@ -65,13 +65,11 @@ const { data: rubric } = await getEntry(`${track}Rubrics`, level)!;
     </table>
 
     <h2>
-      What makes a good {
-        track === 'core' ? `${rubric.level} engineer` : rubric.title.toLowerCase()
-      }?
+      What makes a good {track === 'ic' ? `${rubric.level} engineer` : rubric.title.toLowerCase()}?
     </h2>
     <p>
       When someone talks about a strongly performing {
-        track === 'core' ? `${rubric.level} engineer}` : rubric.title
+        track === 'ic' ? `${rubric.level} engineer` : rubric.title
       }, you may hear that they:
     </p>
     <ul>

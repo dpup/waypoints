@@ -4,19 +4,19 @@ import Layout from '@layouts/Layout.astro';
 import Content from '@components/Content.astro';
 import RoleOverviewList from '@components/RoleOverviewList.astro';
 
-const coreRubrics = await getCollection('coreRubrics');
-coreRubrics.sort((a, b) => (a.data.level > b.data.level ? 1 : -1));
+const icRubrics = await getCollection('icRubrics');
+icRubrics.sort((a, b) => (a.data.level > b.data.level ? 1 : -1));
 ---
 
 <Layout title="Overview of the Core Track" description="">
   <Content>
-    <h1>Core Track</h1>
+    <h1>Individual Contributor Track</h1>
     <p>
-      The core track represents the level of autonomy an individual has, and their impact on the
+      The IC track represents the level of autonomy an individual has, and their impact on the
       organization. It is expected that most people continue to progress through the levels until
       they reach L4, however, at that point many individuals may diversify their skills and
       experience instead of seeking to progress to L5 or switching to the manager track.
     </p>
-    <RoleOverviewList category="core" rubrics={coreRubrics} />
+    <RoleOverviewList category="ic" rubrics={icRubrics} />
   </Content>
 </Layout>

@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 
 let hasError = false;
 
-const dirs = ['core', 'manager'];
+const dirs = ['ic', 'manager'];
 
 await Promise.all(
   dirs.map(async (dir) => {

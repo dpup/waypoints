@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Content from '@components/Content.astro';
 
-export const tracks = ['core', 'manager'] as const;
+export const tracks = ['ic', 'manager'] as const;
 
 export async function getStaticPaths() {
   return tracks.map((track) => ({ params: { track } }));
@@ -24,7 +24,8 @@ rubrics.sort((a, b) => (a.data.level < b.data.level ? -1 : 1));
 const allCapabilities = await getCollection('capabilities');
 const capabilities = allCapabilities.filter((c) => c.data.id.startsWith(track)).map((c) => c.data);
 
-const trackTitle = track.charAt(0).toUpperCase() + track.slice(1);
+const trackTitle =
+  track.length > 2 ? track.charAt(0).toUpperCase() + track.slice(1) : track.toUpperCase();
 ---
 
 <Layout title={`${trackTitle} Capabilities`} description={'TODO'}>

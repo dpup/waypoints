@@ -1,6 +1,6 @@
-# Core Track
+# IC Track
 
-- id: core-technical
+- id: ic-technical
   title: Technical Expertise
   description: |
     The ability to apply technical knowledge to complex problems and make sound
@@ -8,7 +8,7 @@
     of systems and technologies, as well as the ability to learn and apply new
     tools and technologies effectively.
 
-- id: core-ownership
+- id: ic-ownership
   title: Project Ownership
   description: |
     The ability to take responsibility for tasks and projects, ensuring timely
@@ -16,7 +16,7 @@
     meeting deadlines, proactively seeking feedback, and demonstrating
     accountability for the quality of work.
 
-- id: core-impact
+- id: ic-impact
   title: Business Impact
   description: |
     The ability to understand how work contributes to product goals and user
@@ -25,7 +25,7 @@
     of technical decisions on users, and seeking feedback to ensure alignment
     with broader goals.
 
-- id: core-collaboration
+- id: ic-collaboration
   title: Communication & Collaboration
   description: |
     The ability to work effectively with others, including product and design
@@ -33,7 +33,7 @@
     includes asking thoughtful questions, offering ideas and feedback, and
     actively participating in team meetings and discussions.
 
-- id: core-support
+- id: ic-support
   title: Mentorship & Support
   description: |
     The ability to seek and apply feedback for oneself, and to provide guidance
@@ -41,7 +41,7 @@
     informal help, sharing knowledge, and assisting with small tasks, as well as
     actively seeking opportunities to learn and grow beyond immediate tasks.
 
-- id: core-leadership
+- id: ic-leadership
   title: Leadership & Process Improvement
   description: |
     The ability to demonstrate self-discipline and improve personal workflows,

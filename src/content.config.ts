@@ -2,7 +2,7 @@ import { defineCollection, z } from 'astro:content';
 
 import { file, glob } from 'astro/loaders';
 
-import coreRubricSchema from '../content/rubrics/core/_schema';
+import icRubricSchema from '../content/rubrics/ic/_schema';
 import managerRubricSchema from '../content/rubrics/manager/_schema';
 
 // Default schema for markdown files.
@@ -27,9 +27,9 @@ const appendix = defineCollection({
   schema: mdSchema,
 });
 
-const coreRubrics = defineCollection({
-  loader: glob({ pattern: '**/*.yaml', base: './content/rubrics/core' }),
-  schema: coreRubricSchema,
+const icRubrics = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './content/rubrics/ic' }),
+  schema: icRubricSchema,
 });
 
 const managerRubrics = defineCollection({
@@ -46,4 +46,4 @@ const capabilities = defineCollection({
   }),
 });
 
-export const collections = { docs, guides, appendix, coreRubrics, managerRubrics, capabilities };
+export const collections = { docs, guides, appendix, icRubrics, managerRubrics, capabilities };
