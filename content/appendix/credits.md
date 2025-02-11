@@ -8,7 +8,7 @@ order: 4
 
 This engineering career framework was developed with the intention of providing clear, actionable guidance for engineering career development across different organization sizes and contexts. It represents a synthesis of industry best practices, real-world experiences, and contemporary thinking about engineering progression.
 
-## Authors
+## Contributors
 
 The primary authors of this framework are:
 
@@ -18,18 +18,7 @@ The primary authors of this framework are:
 
 This framework was initially developed with the support of [Float Health](https://floathealth.com) and [Andela](https://andela.com).
 
-## Contributors
-
-We would like to thank all the individuals and organizations who contributed their time, expertise, and insights to the development of this framework. While many contributors prefer to remain anonymous, their collective experience spans startups, growth-stage companies, and enterprises across various industries.
-
-Special thanks to:
-
-- [TODO Add named contributors once permission has been granted]
-- Numerous engineering leaders who participated in framework validation, despite busy schedules
-- HR/People Operations professionals who provided guidance on implementation
-- Engineers across different levels who offered feedback on clarity and applicability
-
-## Inspirational Sources
+## Inspiration
 
 This framework builds upon and was inspired by several excellent public engineering ladders and career frameworks, including:
 
@@ -47,6 +36,7 @@ This framework builds upon and was inspired by several excellent public engineer
 - [Dreyfus model of skill acquisition](https://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf)
 - [Bloom's taxonomy of learning objectives](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
 - Agile and DevOps methodologies
+- [Marty Cagan's books](https://www.svpg.com/books/)
 - Numerous blog authors who write about modern engineering management practices
 
 ## Feedback and Evolution
