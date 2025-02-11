@@ -7,8 +7,10 @@ const appendix = await getCollection('appendix');
 const icRubrics = await getCollection('icRubrics');
 const managerRubrics = await getCollection('managerRubrics');
 
-const orderSorter = (a, b) => a.data.order - b.data.order;
-const levelSorter = (a, b) => (a.data.level > b.data.level ? 1 : -1);
+const orderSorter = (a: { data: { order: number } }, b: { data: { order: number } }) =>
+  a.data.order - b.data.order;
+const levelSorter = (a: { data: { level: string } }, b: { data: { level: string } }) =>
+  a.data.level > b.data.level ? 1 : -1;
 
 docs.sort(orderSorter);
 guides.sort(orderSorter);
@@ -79,7 +81,7 @@ const nav = [
 
 <div
   id="sidebar"
-  class="overflow-y-auto fixed lg:sticky top-0 left-0 z-20 w-72 h-screen bg-white border-r transform -translate-x-full lg:translate-x-0 transition-transform duration-200 ease-in-out"
+  class="overflow-y-auto fixed lg:sticky top-0 left-0 z-20 w-72 h-full bg-white border-r transform -translate-x-full lg:translate-x-0 transition-transform duration-200 ease-in-out"
 >
   <div
     class="flex flex-col h-full bg-gradient-to-l from-stone-100 to-white backdrop-blur-sm border-r border-stone-200"
