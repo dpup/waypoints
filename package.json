@@ -24,22 +24,22 @@
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^6.0.0",
     "@tailwindcss/forms": "^0.5.10",
-    "astro": "^5.2.5",
+    "astro": "^5.3.1",
     "astro-icon": "^1.1.5",
     "lucide": "^0.475.0",
-    "nanostores": "^0.11.3",
+    "nanostores": "^0.11.4",
     "sharp": "^0.33.5",
-    "tailwindcss": "^3.0.24",
+    "tailwindcss": "^4.0.8",
     "typescript": "^5.7.3",
     "yaml": "^2.7.0",
-    "zod": "^3.24.1",
+    "zod": "^3.24.2",
     "zod-validation-error": "^3.4.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^22.13.1",
-    "@types/react": "^19.0.8",
-    "prettier": "^3.5.0",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "prettier": "^3.5.2",
     "prettier-plugin-astro": "^0.14.1"
   }
 }
