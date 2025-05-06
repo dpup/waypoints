@@ -6,7 +6,7 @@ order: 4
 
 # Credits & Acknowledgements
 
-This engineering career framework was developed with the intention of providing clear, actionable guidance for engineering career development across different organization sizes and contexts. It represents a synthesis of industry best practices, real-world experiences, and contemporary thinking about engineering progression.
+Waypoints was developed with the intention of providing clear, actionable guidance for engineering career development across different organization sizes and contexts. It represents a synthesis of industry best practices, real-world experiences, and contemporary thinking about engineering progression.
 
 ## Contributors
 

@@ -43,6 +43,10 @@ expectations:
     misses: Struggles to balance technical input with management duties. Provides little technical guidance, leaving the team to make decisions without proper oversight.
 
 traits:
-  - placeholder 1
-  - placeholder 2
-  - placeholder 3
+  - Balance their technical expertise with management responsibilities, providing guidance in code reviews while not micromanaging the implementation.
+  - Set clear expectations for their team members and deliver constructive feedback that actually helps people grow.
+  - Create an environment where team members feel safe asking questions and raising concerns without fear of judgment.
+  - Partner effectively with product managers to define realistic scope and timelines for projects.
+  - Communicate engineering constraints and trade-offs to other departments in terms they can understand and appreciate.
+  - Maintain a steady, productive work rhythm that keeps the team shipping consistently without burning out.
+  - Proactively identify and address team dynamics or interpersonal issues before they escalate.

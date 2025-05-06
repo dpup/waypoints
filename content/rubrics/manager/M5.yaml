@@ -24,7 +24,7 @@ expectations:
 
   planning:
     exceeds: Oversees planning across multiple departments, ensuring alignment with long-term business goals. Handled budgets and hiring plans, ensuring that high-priority projects are staffed while maintaining balance across teams. Anticipates shifts in resource needs due to strategic changes and adapts plans accordingly.
-    meets: Manages budgets and hiring plans at the department level, ensuring that resources are allocated effectively across teams to meet both short-term and
+    meets: Manages budgets and hiring plans at the department level, ensuring that resources are allocated effectively across teams to meet both short-term and long-term goals.
     misses: Struggles to manage resources at the department level, leading to overcommitted teams or misallocation of resources. Fails to anticipate strategic shifts in resource needs.
 
   collaboration:
@@ -43,6 +43,13 @@ expectations:
     misses: Fails to stay technically relevant or aware of industry trends, leading to stagnation. Struggles to influence departmental technical decisions or drive innovation. Promotes technology choices that are inappropriate for the company or fail to solve key problems.
 
 traits:
-  - placeholder 1
-  - placeholder 2
-  - placeholder 3
+  - Shape the engineering culture, ensuring alignment with company values even during rapid growth.
+  - Manage budgets and hiring plans, ensuring resources are allocated to high-priority initiatives.
+  - Drive collaboration across multiple teams, ensuring alignment with business goals.
+  - Influence product strategy at an executive level by representing the engineering perspective clearly.
+  - Anticipate and mitigate technical risks that could impact multiple teams or product areas.
+  - Establish and maintain strong relationships with key stakeholders across the organization.
+  - Create opportunities for cross-team learning and knowledge sharing.
+  - Make strategic architectural decisions that enable new capabilities.
+  - Represent the company's engineering perspective at industry events, helping to build the engineering brand.
+  - Navigate complex organizational dynamics to ensure engineering teams can deliver consistently.
