@@ -1,7 +1,7 @@
 ---
 title: Company Size & Manager Levels
 description: Some manager levels are highly dependent on team size, here we map how manager levels might change across companies.
-order: 3
+order: 4
 ---
 
 # Company Size & Manager Levels
